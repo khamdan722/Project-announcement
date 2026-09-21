@@ -105,8 +105,12 @@ def table_borders(table, color):
 # document building
 # --------------------------------------------------------------------------- #
 def add_text_cell(cell, text, style, rtl, align=None, valign=False):
-    """Fill a table cell, keeping blank-line-separated paragraphs intact."""
-    blocks = [b.strip() for b in str(text).split("\n\n") if b.strip()] or [""]
+    """Fill a table cell, keeping blank-line-separated paragraphs intact.
+
+    Within a paragraph the source line wrapping is reflowed away, so YAML block
+    scalars can be wrapped for readability without breaking lines in Word.
+    """
+    blocks = [" ".join(b.split()) for b in str(text).split("\n\n") if b.strip()] or [""]
     first = clear_cell(cell)
     for index, block in enumerate(blocks):
         par = first if index == 0 else cell.add_paragraph()

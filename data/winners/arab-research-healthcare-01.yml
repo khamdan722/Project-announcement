@@ -1,28 +1,51 @@
 # Arab Award for Research in Healthcare — winner 1 of 2
-# Fill this in as arbitration results arrive. Leave `status: pending` until the
-# result is final; the build script prints a placeholder row for pending winners.
+# Submission 1281
 
 id: arab-research-healthcare-01
 award: arab-research-healthcare
 winner_type: research_paper
 
-# pending   — arbitration not finished, nothing confirmed yet
-# confirmed — name is final, write-up still to be drafted
-# drafted   — write-up drafted from source documents, awaiting internal review
-# approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — العنوان العربي للبحث الفائز
-name_ar: ""
+name_ar: "بروتين pHERV-W ENV في الحويصلات الخارجية كمؤشر حيوي ديناميكي للتنبؤ بالانتكاسات وتقييم مآل مرض التصلب المتعدد."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
-notes_ar: ""
+notes_ar: "فريق بحثي من الجامعة الأمريكية في بيروت – مركز نعمة وتريز تهمة للتصلب المتعدد (لبنان)."
 
-# نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
-bio_en: ""
+# نبذة عن الفائز
+bio_en: |
+  Multiple sclerosis (MS) is a disease in which the immune system attacks the protective covering of
+  nerves in the brain and spinal cord. Its course is unpredictable: patients go through relapses, when
+  symptoms flare, and long stretches of stability. Doctors have no simple blood test that tells them a
+  relapse is coming or how aggressive a patient's disease is likely to become, and must rely largely on
+  symptoms and repeated MRI scans.
 
-# Documents this write-up was built from (CV, nomination form, paper, abstract).
-# Every factual claim in bio_en must be traceable to one of these.
-sources: []
+  In our study, we examined a protein called pHERV-W ENV. It comes from an ancient virus whose genetic
+  material became part of the human genome long ago, and it has long been suspected of playing a role in
+  MS. We measured this protein on exosomes — tiny packages that cells release into the bloodstream — across
+  three separate groups of patients: one comparing healthy people with stable and with active MS patients;
+  one following patients before, during and after episodes of disease activity; and one tracking newly
+  diagnosed patients over three years.
 
-notes: ""
+  We found that the protein rose while the disease was active and fell away afterwards, tracking the
+  disease as it happened. Its levels rose alongside markers of Epstein-Barr virus activity, a virus long
+  associated with MS, and we traced the protein mainly to two immune cell types, monocytes and B cells.
+  Most importantly, patients whose levels were high at diagnosis went on to experience more relapses and
+  more new lesions on MRI over the following three years, and lost their disease-free status sooner than
+  others.
+
+  Taken together, these results suggest that measuring pHERV-W ENV on exosomes could give physicians an
+  early warning system for multiple sclerosis: a non-invasive blood test that reflects what the disease is
+  doing now and indicates what it is likely to do next. That would allow treatment to be intensified for
+  the patients who need it most, before irreversible damage accumulates.
+
+sources:
+  - "winners so far/AARH/1281/Saba-Exosomal pHERV-W ENV as a dynamic biomarker for relapse prediction and prognosis in multiple sclerosis-2025-Journal of Neuroinflammation.pdf"
+  - "winners so far/AARH/1281/Authors.pdf"
+  - "winners so far/AARH/1281/arab-award-for-research-in-healthcare 2026all.pdf"
+
+notes: >-
+  Published in Journal of Neuroinflammation (2025) 22:238. Corresponding author Samia J. Khoury;
+  Esber S. Saba and May F. Mrad contributed equally. Arabic title is a translation of the English
+  paper title and needs review by the foundation.

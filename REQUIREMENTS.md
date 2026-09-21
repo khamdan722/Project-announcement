@@ -19,10 +19,14 @@ Working list. Each item gets a status as we go through them one by one.
 
 | # | Requirement | Status | Blocked on |
 |---|---|---|---|
-| R8 | Fill in winners whose arbitration has finished | todo | names from the foundation |
-| R9 | Draft the English write-ups (نبذة عن الفائز) for each winner | blocked | winners' uploaded documents (CVs, nomination forms, papers) |
-| R10 | Fill in remaining winners as arbitration completes | blocked | remaining arbitration results |
-| R11 | Internal review and approval pass before handover | todo | R8–R10 |
+| R8 | Fill in winners whose arbitration has finished | done (5 of 10) | — |
+| R9 | Draft the English write-ups (نبذة عن الفائز) for each winner | done (5 of 10) | — |
+| R10 | Fill in the remaining 5 winners — Best Research in Healthcare (3), Innovation in Healthcare (2) | blocked | remaining arbitration results |
+| R11 | Review the Arabic paper titles and personal names — mine are translations, not the foundation's official wording | todo | foundation review |
+| R12 | Clear the two Distinguished Personalities write-ups with Dubai Health and Burjeel — sources are internal nomination letters | todo | — |
+| R13 | Tidy the repository: 14 duplicate source files sit at the repo root, and 7 stray 1-byte files sit inside `winners so far/` | todo | confirmation before deleting |
+| R14 | Confirm the foundation's English name — the 1281 declaration form says "Hamdan Bin Rashid Al Maktoum Foundation", we have "Hamdan Bin Rashid Foundation" | todo | — |
+| R15 | Internal review and approval pass before handover | todo | R10–R14 |
 
 ## Still to be captured
 

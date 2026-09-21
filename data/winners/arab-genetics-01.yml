@@ -1,28 +1,55 @@
 # Arab Award in Genetics — winner 1 of 1
-# Fill this in as arbitration results arrive. Leave `status: pending` until the
-# result is final; the build script prints a placeholder row for pending winners.
 
 id: arab-genetics-01
 award: arab-genetics
 winner_type: personality
 
-# pending   — arbitration not finished, nothing confirmed yet
-# confirmed — name is final, write-up still to be drafted
-# drafted   — write-up drafted from source documents, awaiting internal review
-# approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — اسم الشخصية الفائزة
-name_ar: ""
+name_ar: "الأستاذ الدكتور خالد فخرو"
 
 # الملاحظات — المنصب والجهة
-notes_ar: ""
+notes_ar: "الرئيس التنفيذي للأبحاث ورئيس برنامج الطب الدقيق في مركز سدرة للطب، وأستاذ علم الجينوم والطب الدقيق بجامعة حمد بن خليفة (قطر)."
 
-# نبذة عن الفائز — English, 250–400 words: third-person career narrative: training, roles, contributions, impact, recognitions
-bio_en: ""
+# نبذة عن الفائز
+bio_en: |
+  Dr. Khalid A. Fakhro has spent his career building the field of genomics in the Arab world, and much of
+  what exists in Qatar today was established under his hand. He graduated top of his country in 2001 and
+  chose genetics at a time when the discipline was widely seen as offering little career prospect in the
+  Gulf. He completed his undergraduate studies at the University of Chicago, his master's and doctorate at
+  Yale University on full scholarships, and post-doctoral training at Weill Cornell Medicine, where he
+  watched the Yale Genome Center take shape and recognised what next-generation sequencing would one day
+  mean for patients in his own region.
 
-# Documents this write-up was built from (CV, nomination form, paper, abstract).
-# Every factual claim in bio_en must be traceable to one of these.
-sources: []
+  He returned to a country whose genomic research infrastructure was, in his own description, rudimentary.
+  With a small team he spent years building the foundations — recruiting physicians, identifying families,
+  and establishing sequencing and computational pipelines from scratch. By late 2016 more than 2,000
+  individuals had been sequenced, producing discoveries that drew global attention to Arab genomics. Among
+  them were the identification of an indigenous founder Arab population descended from the earliest human
+  migrations out of Africa, which reached the cover of Genome Research; the first high-resolution mapping
+  of population structure across the Gulf; and the first assessment of how reference bias distorts genome
+  interpretation for Arab patients, showing that a substantial share of so-called variant alleles are in
+  fact the norm in Qataris, including roughly 200 wrongly catalogued as disease-causing.
 
-notes: ""
+  In 2014 he was appointed lead consultant to the Qatar Genome Program, the region's first national
+  sequencing programme, and authored the strategy that established a national sequencing capability. As
+  inaugural Director of Human Genetics and now Chief Research Officer at Sidra Medicine, he launched
+  Qatar's first point-of-care whole genome sequencing service for children with rare disease, reaching a
+  diagnostic rate of around 60 percent where conventional testing had failed, and established the region's
+  largest autism bio-resource.
+
+  Open data has been a principle throughout: his teams have contributed more than 1,000 Qatari exomes and
+  genomes to the public domain, the largest Arab genome submission of its kind. He has built the training
+  pathways to sustain the field, including accredited graduate programmes in genetic counselling and in
+  genomics and precision medicine, ensuring the next generation of Arab geneticists is trained at home.
+
+sources:
+  - "winners so far/AAG/Fakhro-CV_202605.pdf"
+  - "winners so far/AAG/Fakhro_2025-Statement_of_Key_Contributions.pdf"
+  - "winners so far/AAG/Fakhro_2026-Nomination Letter-final.pdf"
+
+notes: >-
+  Current posts per CV (May 2026): Chief Research Officer and Chair of the Precision Medicine Program,
+  Sidra Medicine; Professor of Genomics & Precision Medicine, HBKU; Associate Professor of Genetic
+  Medicine, Weill Cornell. Arabic rendering of the name and title needs confirmation.

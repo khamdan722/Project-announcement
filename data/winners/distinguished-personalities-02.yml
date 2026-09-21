@@ -1,28 +1,61 @@
 # Hamdan Award for Distinguished Personalities — winner 2 of 2
-# Fill this in as arbitration results arrive. Leave `status: pending` until the
-# result is final; the build script prints a placeholder row for pending winners.
 
 id: distinguished-personalities-02
 award: distinguished-personalities
 winner_type: personality
 
-# pending   — arbitration not finished, nothing confirmed yet
-# confirmed — name is final, write-up still to be drafted
-# drafted   — write-up drafted from source documents, awaiting internal review
-# approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — اسم الشخصية الفائزة
-name_ar: ""
+name_ar: "الأستاذ الدكتور حميد عبيد الشامسي"
 
 # الملاحظات — المنصب والجهة
-notes_ar: ""
+notes_ar: "الرئيس التنفيذي لمعهد برجيل للسرطان، ورئيس جمعية الإمارات للأورام."
 
-# نبذة عن الفائز — English, 250–400 words: third-person career narrative: training, roles, contributions, impact, recognitions
-bio_en: ""
+# نبذة عن الفائز
+bio_en: |
+  Professor Humaid Obaid Al-Shamsi is Chief Executive Officer of Burjeel Cancer Institute and President of
+  the Emirates Oncology Society. Across more than twenty years as a consultant oncologist he has worked to
+  make cancer care in the United Arab Emirates both excellent and reachable.
 
-# Documents this write-up was built from (CV, nomination form, paper, abstract).
-# Every factual claim in bio_en must be traceable to one of these.
-sources: []
+  Since 2020 he has led the establishment of the country's largest comprehensive cancer network, with
+  centres in Abu Dhabi, Sharjah, Al Ain and Al Ruwais, bringing specialised treatment closer to where
+  patients live and removing the travel burden that once accompanied a diagnosis. He secured the first
+  and only ESMO accreditation held by a cancer centre in the UAE, and established the nation's foremost
+  comprehensive bone marrow transplant unit, which has completed 160 transplants — more than 50 of them
+  provided free of charge to international patients of twenty nationalities. Much of that work was
+  accomplished during the peak of the COVID-19 pandemic, when international travel was closed to patients
+  who would otherwise have had nowhere to go. He provides free consultations to uninsured patients and
+  works with charitable organisations so that support reaches patients irrespective of where they are
+  treated.
 
-notes: ""
+  He has shaped national policy as much as institutional practice. Working with the Dubai Health
+  Authority he contributed to advanced oncology care standards rolled out nationally in 2024; through the
+  Emirates Oncology Society and the Ministry of Health and Prevention he helped develop the UAE's
+  National Guideline for Lung Cancer Screening and Diagnosis; and he contributed to the establishment of
+  the National Multidisciplinary Committee for Cancer Case Assessment under Ministerial Decree No. 20 of
+  2025.
+
+  As an educator he established the first haematology and oncology fellowship programme in the country's
+  history and chairs the fellowship committee at the National Institute for Health Specialties. He holds
+  professorships at the University of Sharjah and RAK Medical and Health Sciences University, and
+  international appointments as Visiting Professor at Harvard Medical School and Visiting Scientist at the
+  Dana-Farber Cancer Institute. He has published more than 200 peer-reviewed papers and edited the most
+  widely downloaded medical book in the MENA region, released free of charge and downloaded more than
+  650,000 times, followed by volumes on cancer care and on healthcare in the UAE with a further 600,000
+  downloads between them.
+
+  He is among the most widely followed oncologists in the world, using that reach to promote early
+  detection and to raise acceptance of cancer screening across Emirati society. In February 2025 he
+  received the Sheikha Fatima bint Mubarak Award for Excellence and Community Intelligence in the
+  Distinguished Personality category, presented by His Highness Sheikh Mohamed bin Zayed Al Nahyan.
+
+sources:
+  - "winners so far/HADP/humaid/Prof Humaid - Nomination Letter 2026.pdf"
+  - "winners so far/HADP/humaid/4 Prof Humaids CV Illustration_V1_compressed.pdf"
+  - "winners so far/HADP/humaid/June 2026 - Humaid O Al-Shamsi_CV_June2026.docx"
+
+notes: >-
+  Nomination by Dr. Mohammad Fityan, Group Chief Medical Officer, Burjeel Holdings, 12 June 2026.
+  Social-media follower counts given in the nomination (530k Instagram, 300k TikTok) are summarised
+  rather than stated, as they date quickly.

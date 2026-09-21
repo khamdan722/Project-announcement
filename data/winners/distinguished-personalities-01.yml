@@ -1,28 +1,58 @@
 # Hamdan Award for Distinguished Personalities — winner 1 of 2
-# Fill this in as arbitration results arrive. Leave `status: pending` until the
-# result is final; the build script prints a placeholder row for pending winners.
 
 id: distinguished-personalities-01
 award: distinguished-personalities
 winner_type: personality
 
-# pending   — arbitration not finished, nothing confirmed yet
-# confirmed — name is final, write-up still to be drafted
-# drafted   — write-up drafted from source documents, awaiting internal review
-# approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — اسم الشخصية الفائزة
-name_ar: ""
+name_ar: "الدكتور أبوبكر عبدالرحمن شافي المدني"
 
 # الملاحظات — المنصب والجهة
-notes_ar: ""
+notes_ar: "استشاري أمراض المخ والأعصاب ورئيس قسم طب الأعصاب بمستشفى راشد، وأستاذ طب الأعصاب بجامعة محمد بن راشد للطب والعلوم الصحية."
 
-# نبذة عن الفائز — English, 250–400 words: third-person career narrative: training, roles, contributions, impact, recognitions
-bio_en: ""
+# نبذة عن الفائز
+bio_en: |
+  Dr. Abubaker Abdul Rahman Shaffi Al Madani has led the Department of Neurology at Rashid Hospital since
+  2011, and over more than fifteen years of national service has built what is today the largest neurology
+  service in the United Arab Emirates, caring for more than 20,000 patients each year across Rashid, Dubai
+  and Latifa Hospitals.
 
-# Documents this write-up was built from (CV, nomination form, paper, abstract).
-# Every factual claim in bio_en must be traceable to one of these.
-sources: []
+  Under his clinical leadership the department has delivered a series of milestones of national
+  significance. He co-developed the hospital's stroke programme to German Stroke Society accreditation,
+  led the accreditation of Rashid Hospital as a MENACTRIMS Multiple Sclerosis Centre, and oversaw the
+  commissioning of the 18-bed Neurology and Stroke Unit inaugurated in 2019. He has built a
+  multidisciplinary team that maintains disease registries in multiple sclerosis, dementia, neuropathy,
+  headache, movement disorders and epilepsy, alongside specialised clinics in neuromuscular medicine,
+  botulinum toxin therapy, baclofen pump management and deep-brain-stimulation programming.
 
-notes: ""
+  One of his interventions illustrates his approach particularly well. He founded Dubai Health's
+  multidisciplinary headache service and extended specialist care outward into primary health centres at
+  Al Barsha and Nad Al Hamar. Uptake of specialist referral rose from roughly five percent to nearly
+  fifty, with patient satisfaction between 80 and 90 percent — a measurable improvement in what ordinary
+  patients actually receive.
+
+  As an educator he is core faculty of the Rashid Hospital neurology residency programme and Professor of
+  Neurology at Mohammed Bin Rashid University of Medicine and Health Sciences, training the Emirati
+  neurologists who will carry the standard forward. He has authored more than 40 peer-reviewed
+  publications, and has contributed as reviewer or co-author to the UAE's first national multiple
+  sclerosis treatment guidelines, now integrated into the Dubai Health Authority's Ejadah Programme, to
+  the UAE Alzheimer's disease national framework, and to Saudi consensus guidelines on myasthenia gravis.
+
+  As Vice President of the Emirates Neurology Society he served as Congress President of the 3rd Dubai
+  Neurology Congress and chaired a virtual congress convening more than 16,500 delegates worldwide. He
+  led the first Gulf application of the European Migraine and Headache Alliance access-to-care
+  methodology, and represents the UAE within the European Headache Federation and the World Federation of
+  Neurology.
+
+sources:
+  - "winners so far/HADP/Abu bakar/Dr_Abubaker_Al_Madani_CV_2026.pdf"
+  - "winners so far/HADP/Abu bakar/Nomination letter - Hamdan Award _Dr Abubaker Al Madani.pdf"
+  - "winners so far/HADP/Abu bakar/Recommendation letter - Hamdan Award_Dr Abubaker Al Madani.pdf"
+
+notes: >-
+  Nomination by Dr. Babacar Cisse, Chairman of Neurosciences, Dubai Health; endorsement by Dr. Fahad
+  Omar Ahmed Baslaib, Executive Director, Rashid Hospital. Source letters are marked "Dubai Health -
+  Internal Use" — content is paraphrased here rather than quoted, and should be cleared with Dubai
+  Health before publication.

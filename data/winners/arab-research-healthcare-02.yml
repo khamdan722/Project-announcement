@@ -1,28 +1,56 @@
 # Arab Award for Research in Healthcare — winner 2 of 2
-# Fill this in as arbitration results arrive. Leave `status: pending` until the
-# result is final; the build script prints a placeholder row for pending winners.
+# Submission 1413
 
 id: arab-research-healthcare-02
 award: arab-research-healthcare
 winner_type: research_paper
 
-# pending   — arbitration not finished, nothing confirmed yet
-# confirmed — name is final, write-up still to be drafted
-# drafted   — write-up drafted from source documents, awaiting internal review
-# approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — العنوان العربي للبحث الفائز
-name_ar: ""
+name_ar: "مرجع أولي للجينوم الشامل (البانجينوم) العربي من دولة الإمارات العربية المتحدة."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
-notes_ar: ""
+notes_ar: "فريق بحثي من مركز الجينوم التطبيقي والانتقالي – جامعة محمد بن راشد للطب والعلوم الصحية، دبي الصحية."
 
-# نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
-bio_en: ""
+# نبذة عن الفائز
+bio_en: |
+  The human genome reference that doctors and scientists use to interpret DNA was built largely from
+  people of European ancestry. When a patient from an underrepresented population is sequenced, parts of
+  their DNA have nothing meaningful to be compared against, and genuine differences are missed or
+  misread. Arab populations have been among the least represented of all.
 
-# Documents this write-up was built from (CV, nomination form, paper, abstract).
-# Every factual claim in bio_en must be traceable to one of these.
-sources: []
+  In our study, we set out to close that gap by building the first Arab Pangenome Reference. Rather than
+  a single genome, a pangenome combines many high-quality genomes into one reference that captures the
+  range of variation within a population. We sequenced 53 individuals of diverse Arab backgrounds in the
+  UAE using long-read technology, and carried out every stage of the work — from sequencing through
+  bioinformatics — in-house at the Center for Applied and Translational Genomics at Mohammed Bin Rashid
+  University of Medicine and Health Sciences, Dubai Health.
 
-notes: ""
+  The reference uncovered more than 110 million base pairs of DNA sequence absent from existing global
+  references, along with nearly nine million small genetic differences and over 235,000 larger structural
+  differences not previously reported. Among the discoveries was a duplicated gene, TAF11L5, found
+  commonly in the Arab individuals we studied yet absent from global references entirely. It may play a
+  role in regulating other genes, with implications for understanding disease risk and why individuals
+  respond differently to treatment.
+
+  To make this analysis possible we also developed PanScan, a bioinformatics tool that detects gene
+  duplications, novel sequences and complex genomic structures within pangenomes. We released it publicly
+  so that researchers building references for their own populations can use it.
+
+  The study was published in Nature Communications and supports the UAE's National Genome Strategy. Its
+  value is practical: a population-specific reference makes genetic diagnosis more accurate, and allows
+  biomarkers, risk models and therapeutic targets to be developed from data that genuinely reflects the
+  people they are meant to serve.
+
+sources:
+  - "winners so far/AARH/1413/A draft UAE-based Arab pangenome reference.pdf"
+  - "winners so far/AARH/1413/Author Details.pdf"
+  - "winners so far/AARH/1413/Dubai Health scientists publish first Arab Pangenome Reference marking a milestone for precision medicine.pdf"
+  - "winners so far/AARH/1413/PacBio HiFi Sequencing Powers First Arab Human Pangenome Published in Nature Communications - PacBio.pdf"
+  - "winners so far/AARH/1413/The Pathologist _ First Arab Pangenome Published.pdf"
+
+notes: >-
+  Published in Nature Communications (2025), https://www.nature.com/articles/s41467-025-61645-w.
+  Lead author Nasna Nassir; senior author Mohammed Uddin, Director of CATG. Arabic title is a
+  translation and needs review by the foundation.
