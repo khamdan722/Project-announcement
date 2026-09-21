@@ -1,0 +1,28 @@
+# Arab Award in Genetics — winner 1 of 1
+# Fill this in as arbitration results arrive. Leave `status: pending` until the
+# result is final; the build script prints a placeholder row for pending winners.
+
+id: arab-genetics-01
+award: arab-genetics
+winner_type: personality
+
+# pending   — arbitration not finished, nothing confirmed yet
+# confirmed — name is final, write-up still to be drafted
+# drafted   — write-up drafted from source documents, awaiting internal review
+# approved  — cleared for handover to the media team
+status: pending
+
+# الاسم — اسم الشخصية الفائزة
+name_ar: ""
+
+# الملاحظات — المنصب والجهة
+notes_ar: ""
+
+# نبذة عن الفائز — English, 250–400 words: third-person career narrative: training, roles, contributions, impact, recognitions
+bio_en: ""
+
+# Documents this write-up was built from (CV, nomination form, paper, abstract).
+# Every factual claim in bio_en must be traceable to one of these.
+sources: []
+
+notes: ""

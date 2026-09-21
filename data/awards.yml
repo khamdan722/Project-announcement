@@ -1,0 +1,61 @@
+# Hamdan Bin Rashid Foundation for Medical and Educational Sciences
+# Medical Awards 2026 — press-release structure
+#
+# Layout mirrors the 2024 press release (reference/2024-winners-press-release.docx):
+# a document title, two numbered sections, and one table per award.
+
+cycle: 2026
+title_ar: "كشف الفائزين للجوائز الطبية 2026"
+
+foundation:
+  name_ar: "مؤسسة حمدان بن راشد للعلوم الطبية والتربوية"
+  name_en: "Hamdan Bin Rashid Foundation for Medical and Educational Sciences"
+
+# Column headers of every award table (right-to-left order, as in 2024)
+columns_ar: ["م", "الاسم", "الملاحظات", "نبذة عن الفائز"]
+
+# Text used in the generated document wherever arbitration is not finished yet
+placeholder_ar: "بانتظار نتائج التحكيم"
+
+sections:
+  - heading_ar: "أولاً: جوائز العالم العربي"
+    awards:
+      - id: arab-research-healthcare
+        name_ar: "الجائزة العربية للأبحاث في القطاع الصحي"
+        name_en: "Arab Award for Research in Healthcare"
+        winner_type: research_paper
+        winner_count: 2
+      - id: arab-genetics
+        name_ar: "الجائزة العربية في العلوم الوراثية"
+        name_en: "Arab Award in Genetics"
+        winner_type: personality
+        winner_count: 1
+
+  - heading_ar: "ثانياً: جوائز دولة الإمارات العربية المتحدة"
+    awards:
+      - id: best-research-healthcare
+        name_ar: "جائزة أفضل بحث في القطاع الصحي"
+        name_en: "Best Research in Healthcare"
+        winner_type: research_paper
+        winner_count: 3
+      - id: distinguished-personalities
+        name_ar: "جائزة حمدان للمتميزين في القطاع الصحي"
+        name_en: "Hamdan Award for Distinguished Personalities"
+        winner_type: personality
+        winner_count: 2
+      - id: innovation-healthcare
+        name_ar: "جائزة الابتكار في القطاع الصحي"
+        name_en: "Innovation in Healthcare Award"
+        winner_type: healthcare_project
+        winner_count: 2
+
+# Visual style lifted from the 2024 document, so regenerated files match it exactly.
+style:
+  font: "Dubai"
+  teal: "3D959D"      # award title row + column header row fill
+  gold: "B99664"      # section heading band fill
+  border: "7F7F7F"
+  title_pt: 15
+  section_pt: 13
+  award_pt: 12
+  body_pt: 11

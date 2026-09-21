@@ -1,0 +1,28 @@
+# Arab Award for Research in Healthcare — winner 2 of 2
+# Fill this in as arbitration results arrive. Leave `status: pending` until the
+# result is final; the build script prints a placeholder row for pending winners.
+
+id: arab-research-healthcare-02
+award: arab-research-healthcare
+winner_type: research_paper
+
+# pending   — arbitration not finished, nothing confirmed yet
+# confirmed — name is final, write-up still to be drafted
+# drafted   — write-up drafted from source documents, awaiting internal review
+# approved  — cleared for handover to the media team
+status: pending
+
+# الاسم — العنوان العربي للبحث الفائز
+name_ar: ""
+
+# الملاحظات — الفريق البحثي والجهة التابع لها
+notes_ar: ""
+
+# نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
+bio_en: ""
+
+# Documents this write-up was built from (CV, nomination form, paper, abstract).
+# Every factual claim in bio_en must be traceable to one of these.
+sources: []
+
+notes: ""
