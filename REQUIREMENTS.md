@@ -27,6 +27,7 @@ Working list. Each item gets a status as we go through them one by one.
 | R13 | Tidy the repository: 14 duplicate source files sit at the repo root, and 7 stray 1-byte files sit inside `winners so far/` | todo | confirmation before deleting |
 | R14 | Confirm the foundation's English name — the 1281 declaration form says "Hamdan Bin Rashid Al Maktoum Foundation", we have "Hamdan Bin Rashid Foundation" | todo | — |
 | R15 | Internal review and approval pass before handover | todo | R10–R14 |
+| R16 | Source-reference audit of every claim in the write-ups — see REFERENCES.md | done | — |
 
 ## Still to be captured
 
