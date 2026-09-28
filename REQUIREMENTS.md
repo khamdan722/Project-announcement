@@ -30,6 +30,8 @@ Working list. Each item gets a status as we go through them one by one.
 | R16 | Source-reference audit of every claim in the write-ups — see REFERENCES.md | done | — |
 | R17 | Shorten the write-ups and remove every unsourced sentence | done | — |
 | R18 | Obtain portraits for the three individual winners — see photos/README.md | todo | press offices |
+| R19 | Arabic write-ups for all winners, with terminology checked against outside sources — see REFERENCES-AR.md | done (5 of 10) | — |
+| R20 | Confirm the two flagged Arabic choices: EMINS Arabic name, and التصلب المتعدد vs اللويحي | todo | foundation |
 
 ## Still to be captured
 

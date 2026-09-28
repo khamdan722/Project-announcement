@@ -125,7 +125,7 @@ def add_text_cell(cell, text, style, rtl, align=None, valign=False):
         cell._tc.get_or_add_tcPr().append(_tag("w:vAlign", val="center"))
 
 
-def add_award_table(doc, award, winners, cfg):
+def add_award_table(doc, award, winners, cfg, lang):
     style = cfg["style"]
     widths = [Inches(w) for w in (0.45, 1.9, 1.8, 5.2)]   # ratios from the 2024 file
 
@@ -157,7 +157,11 @@ def add_award_table(doc, award, winners, cfg):
         ready = winner.get("status") in RENDERED_STATUSES
         name = winner.get("name_ar") or ""
         notes = winner.get("notes_ar") or ""
-        bio = winner.get("bio_en") or ""
+        if lang == "both":
+            parts = [winner.get("bio_ar") or "", winner.get("bio_en") or ""]
+            bio = "\n\n".join(p for p in parts if p.strip())
+        else:
+            bio = winner.get("bio_ar" if lang == "ar" else "bio_en") or ""
         if not ready or not name:
             name = cfg["placeholder_ar"]
             notes = notes or "—"
@@ -171,12 +175,12 @@ def add_award_table(doc, award, winners, cfg):
                       align=WD_ALIGN_PARAGRAPH.CENTER, valign=True)
         add_text_cell(cells[1], name, style, rtl=True)
         add_text_cell(cells[2], notes, style, rtl=True)
-        add_text_cell(cells[3], bio, style, rtl=False)
+        add_text_cell(cells[3], bio, style, rtl=(lang == "ar"))
 
     return table
 
 
-def build(cfg, winners_by_award, out_path):
+def build(cfg, winners_by_award, out_path, lang="en"):
     style = cfg["style"]
     doc = Document()
 
@@ -203,7 +207,7 @@ def build(cfg, winners_by_award, out_path):
 
         for award in sec["awards"]:
             rtl_paragraph(doc.add_paragraph())
-            add_award_table(doc, award, winners_by_award[award["id"]], cfg)
+            add_award_table(doc, award, winners_by_award[award["id"]], cfg, lang)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     doc.save(out_path)
@@ -245,26 +249,31 @@ def report(cfg, by_award):
                 if w.get("status") in RENDERED_STATUSES and w.get("name_ar")
             )
             written = sum(1 for w in slots if (w.get("bio_en") or "").strip())
+            arabic = sum(1 for w in slots if (w.get("bio_ar") or "").strip())
             total += len(slots)
             ready += done
             print(f"    {award['name_en']:<45} names {done}/{len(slots)}   "
-                  f"write-ups {written}/{len(slots)}")
+                  f"EN {written}/{len(slots)}   AR {arabic}/{len(slots)}")
         print()
     print(f"  {ready}/{total} winners confirmed\n")
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("-o", "--output", type=pathlib.Path,
-                        default=ROOT / "output" / "winners-press-release-2026.docx")
+    parser.add_argument("-o", "--output", type=pathlib.Path)
+    parser.add_argument("-l", "--lang", choices=("en", "ar", "both"), default="en",
+                        help="language of the نبذة عن الفائز column (default: en, as in 2024)")
     args = parser.parse_args()
+    if args.output is None:
+        suffix = "" if args.lang == "en" else f"-{args.lang}"
+        args.output = ROOT / "output" / f"winners-press-release-2026{suffix}.docx"
 
     cfg = yaml.safe_load((DATA / "awards.yml").read_text(encoding="utf-8"))
     by_award, problems = load_winners(cfg)
     for problem in problems:
         print(f"  warning: {problem}", file=sys.stderr)
 
-    build(cfg, by_award, args.output)
+    build(cfg, by_award, args.output, args.lang)
     report(cfg, by_award)
     print(f"  written to {os.path.relpath(args.output, ROOT)}\n")
 
