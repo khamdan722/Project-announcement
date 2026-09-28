@@ -190,6 +190,13 @@ write-ups were shortened, all of them were cut:
 Every sentence now in the five write-ups traces to a source document. No figure,
 date, institution, title or award came from general knowledge.
 
+## Voice
+
+The two research-paper write-ups were converted from the first person ("In our
+study we found…") to the foundation's voice ("The study found…") in both languages.
+Only the voice changed; every statement and its source are unchanged. The same
+applies to the three papers and two projects still to come.
+
 ## Photographs
 
 No portrait exists in any uploaded document. See `photos/README.md` for the official

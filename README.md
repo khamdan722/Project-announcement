@@ -51,6 +51,12 @@ version can be produced at any time.
 List every document a write-up was built from under `sources`. Facts that no
 source supports do not go in.
 
+**Voice.** Write-ups are written in the foundation's voice, about the winner —
+not in the winner's voice about their own work. So "The study found…", "The team
+measured…", "وقد وجدت الدراسة…", never "In our study we found…". The source
+documents are written in the first person, so this has to be converted when
+drafting. The 2024 release used the first person; 2026 does not.
+
 ## Building the document
 
 ```sh

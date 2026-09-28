@@ -32,6 +32,7 @@ Working list. Each item gets a status as we go through them one by one.
 | R18 | Obtain portraits for the three individual winners — see photos/README.md | todo | press offices |
 | R19 | Arabic write-ups for all winners, with terminology checked against outside sources — see REFERENCES-AR.md | done (5 of 10) | — |
 | R20 | Confirm the two flagged Arabic choices: EMINS Arabic name, and التصلب المتعدد vs اللويحي | todo | foundation |
+| R21 | Write-ups in the foundation's voice, not the winner's — applies to the remaining papers and projects too | done | — |
 
 ## Still to be captured
 
