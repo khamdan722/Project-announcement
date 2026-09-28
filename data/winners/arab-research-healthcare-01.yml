@@ -15,30 +15,23 @@ notes_ar: "فريق بحثي من الجامعة الأمريكية في بير�
 
 # نبذة عن الفائز
 bio_en: |
-  Multiple sclerosis (MS) is a disease in which the immune system attacks the protective covering of
-  nerves in the brain and spinal cord. Its course is unpredictable: patients go through relapses, when
-  symptoms flare, and long stretches of stability. Doctors have no simple blood test that tells them a
-  relapse is coming or how aggressive a patient's disease is likely to become, and must rely largely on
-  symptoms and repeated MRI scans.
+  The envelope protein of human endogenous retrovirus type W, pHERV-W ENV, has been implicated in the
+  pathogenesis of multiple sclerosis, but its clinical utility as a biomarker remained incompletely
+  defined. In our study we found it enriched on serum-derived exosomes in patients with relapsing-remitting
+  MS, where it reflects both current disease activity and future risk.
 
-  In our study, we examined a protein called pHERV-W ENV. It comes from an ancient virus whose genetic
-  material became part of the human genome long ago, and it has long been suspected of playing a role in
-  MS. We measured this protein on exosomes — tiny packages that cells release into the bloodstream — across
-  three separate groups of patients: one comparing healthy people with stable and with active MS patients;
-  one following patients before, during and after episodes of disease activity; and one tracking newly
-  diagnosed patients over three years.
+  We measured exosomal pHERV-W ENV across three groups: one comparing healthy people with stable and with
+  active disease; one following patients before, during and after episodes of activity; and one tracking
+  newly diagnosed patients over three years.
 
-  We found that the protein rose while the disease was active and fell away afterwards, tracking the
-  disease as it happened. Its levels rose alongside markers of Epstein-Barr virus activity, a virus long
-  associated with MS, and we traced the protein mainly to two immune cell types, monocytes and B cells.
-  Most importantly, patients whose levels were high at diagnosis went on to experience more relapses and
-  more new lesions on MRI over the following three years, and lost their disease-free status sooner than
-  others.
+  Levels rose during active disease and declined at follow-up. They correlated with Epstein-Barr virus
+  LMP2A expression, and monocytes and B cells were the predominant sources of the circulating protein.
+  Patients with high levels at baseline recorded more total disease activity — clinical relapses together
+  with new or enlarging MRI lesions — over three years, and lost "No Evidence of Disease Activity" status
+  sooner.
 
-  Taken together, these results suggest that measuring pHERV-W ENV on exosomes could give physicians an
-  early warning system for multiple sclerosis: a non-invasive blood test that reflects what the disease is
-  doing now and indicates what it is likely to do next. That would allow treatment to be intensified for
-  the patients who need it most, before irreversible damage accumulates.
+  Exosomal pHERV-W ENV may therefore serve as a dynamic, non-invasive biomarker of disease activity with
+  prognostic value in multiple sclerosis.
 
 sources:
   - "winners so far/AARH/1281/Saba-Exosomal pHERV-W ENV as a dynamic biomarker for relapse prediction and prognosis in multiple sclerosis-2025-Journal of Neuroinflammation.pdf"

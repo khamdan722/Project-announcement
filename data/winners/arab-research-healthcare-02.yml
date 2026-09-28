@@ -15,33 +15,22 @@ notes_ar: "فريق بحثي من مركز الجينوم التطبيقي وا�
 
 # نبذة عن الفائز
 bio_en: |
-  The human genome reference that doctors and scientists use to interpret DNA was built largely from
-  people of European ancestry. When a patient from an underrepresented population is sequenced, parts of
-  their DNA have nothing meaningful to be compared against, and genuine differences are missed or
-  misread. Arab populations have been among the least represented of all.
+  Global DNA references have historically underrepresented Arab populations. In our study we built the
+  first Arab Pangenome Reference, from high-quality long-read sequencing of 53 people of diverse Arab
+  backgrounds in the UAE. Every stage, from sequencing to advanced bioinformatics, was completed in-house
+  at the Center for Applied and Translational Genomics at Mohammed Bin Rashid University of Medicine and
+  Health Sciences, Dubai Health.
 
-  In our study, we set out to close that gap by building the first Arab Pangenome Reference. Rather than
-  a single genome, a pangenome combines many high-quality genomes into one reference that captures the
-  range of variation within a population. We sequenced 53 individuals of diverse Arab backgrounds in the
-  UAE using long-read technology, and carried out every stage of the work — from sequencing through
-  bioinformatics — in-house at the Center for Applied and Translational Genomics at Mohammed Bin Rashid
-  University of Medicine and Health Sciences, Dubai Health.
+  The reference uncovered over 110 million base pairs of novel DNA sequence, nearly nine million small
+  differences and more than 235,000 larger structural differences specific to Arab populations, none of
+  them previously reported. One notable discovery was the duplicated gene TAF11L5, highly enriched in the
+  individuals studied but absent from global references; it may play a role in regulating other genes,
+  with implications for disease risk and individual variation in treatment response.
 
-  The reference uncovered more than 110 million base pairs of DNA sequence absent from existing global
-  references, along with nearly nine million small genetic differences and over 235,000 larger structural
-  differences not previously reported. Among the discoveries was a duplicated gene, TAF11L5, found
-  commonly in the Arab individuals we studied yet absent from global references entirely. It may play a
-  role in regulating other genes, with implications for understanding disease risk and why individuals
-  respond differently to treatment.
-
-  To make this analysis possible we also developed PanScan, a bioinformatics tool that detects gene
-  duplications, novel sequences and complex genomic structures within pangenomes. We released it publicly
-  so that researchers building references for their own populations can use it.
-
-  The study was published in Nature Communications and supports the UAE's National Genome Strategy. Its
-  value is practical: a population-specific reference makes genetic diagnosis more accurate, and allows
-  biomarkers, risk models and therapeutic targets to be developed from data that genuinely reflects the
-  people they are meant to serve.
+  The project also produced PanScan, a tool that detects gene duplications, novel DNA changes and complex
+  DNA structures, now publicly available on GitHub. Published in Nature Communications, the reference
+  enables population-specific biomarkers, risk models and therapeutic targets, and supports the UAE's
+  National Genome Strategy.
 
 sources:
   - "winners so far/AARH/1413/A draft UAE-based Arab pangenome reference.pdf"

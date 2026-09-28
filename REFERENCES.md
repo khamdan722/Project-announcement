@@ -176,17 +176,23 @@ Medical Officer, Burjeel Holdings, 12 June 2026), with
 
 ---
 
-## Things no source supports
+## Things no source supported — now removed
 
-These are in the write-ups as framing, not as claims about a winner:
+The first drafts carried a few sentences of framing that no source stated. When the
+write-ups were shortened, all of them were cut:
 
-- Brief 1: the description of what MS is, the statement that no simple blood test
-  exists today, and the closing sentence about intensifying treatment earlier.
-- Brief 2: "among the least represented of all" — the source says "historically
-  underrepresented", without ranking.
-- Briefs 4 and 5: connective sentences ("One of his interventions illustrates his
-  approach particularly well", "has worked to make cancer care … both excellent and
-  reachable") carry no factual claim.
+- Brief 1: the description of what MS is, the claim that no simple blood test exists
+  today, and the closing sentence about intensifying treatment earlier.
+- Brief 2: "among the least represented of all", where the source says only
+  "historically underrepresented", without ranking.
+- Briefs 4 and 5: connective sentences that asserted nothing factual.
 
-Nothing else in the five write-ups originates outside the source documents. No
-figure, date, institution, title or award was taken from general knowledge.
+Every sentence now in the five write-ups traces to a source document. No figure,
+date, institution, title or award came from general knowledge.
+
+## Photographs
+
+No portrait exists in any uploaded document. See `photos/README.md` for the official
+page carrying each individual winner's portrait and the press office to request the
+print-resolution original from. Those pages were located by web search; nothing from
+them has been used in any write-up.

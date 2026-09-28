@@ -14,41 +14,29 @@ notes_ar: "الرئيس التنفيذي لمعهد برجيل للسرطان، 
 
 # نبذة عن الفائز
 bio_en: |
-  Professor Humaid Obaid Al-Shamsi is Chief Executive Officer of Burjeel Cancer Institute and President of
-  the Emirates Oncology Society. Across more than twenty years as a consultant oncologist he has worked to
-  make cancer care in the United Arab Emirates both excellent and reachable.
+  Professor Humaid Obaid Al-Shamsi is CEO of Burjeel Cancer Institute and President of the Emirates
+  Oncology Society, with more than 20 years of experience as a consultant oncologist. Since joining
+  Burjeel Holdings in September 2020 he has led the establishment of the UAE's largest comprehensive
+  cancer network, with centres in Abu Dhabi, Sharjah, Al Ain and Al Ruwais, bringing specialised services
+  closer to patients' homes. He provides free consultations to uninsured cancer patients and works with
+  charitable organisations so that support reaches patients wherever they are treated.
 
-  Since 2020 he has led the establishment of the country's largest comprehensive cancer network, with
-  centres in Abu Dhabi, Sharjah, Al Ain and Al Ruwais, bringing specialised treatment closer to where
-  patients live and removing the travel burden that once accompanied a diagnosis. He secured the first
-  and only ESMO accreditation held by a cancer centre in the UAE, and established the nation's foremost
-  comprehensive bone marrow transplant unit, which has completed 160 transplants — more than 50 of them
-  provided free of charge to international patients of twenty nationalities. Much of that work was
-  accomplished during the peak of the COVID-19 pandemic, when international travel was closed to patients
-  who would otherwise have had nowhere to go. He provides free consultations to uninsured patients and
-  works with charitable organisations so that support reaches patients irrespective of where they are
-  treated.
+  He secured the first and only ESMO accreditation for a UAE cancer centre, and established the nation's
+  foremost comprehensive bone marrow transplant unit, which has completed 160 transplants, more than 50 of
+  them free of charge to international patients from 20 nationalities — accomplished during the peak of
+  the COVID-19 pandemic, when international travel was restricted.
 
-  He has shaped national policy as much as institutional practice. Working with the Dubai Health
-  Authority he contributed to advanced oncology care standards rolled out nationally in 2024; through the
-  Emirates Oncology Society and the Ministry of Health and Prevention he helped develop the UAE's
-  National Guideline for Lung Cancer Screening and Diagnosis; and he contributed to the establishment of
-  the National Multidisciplinary Committee for Cancer Case Assessment under Ministerial Decree No. 20 of
-  2025.
+  He contributed to the national rollout of advanced oncology care standards in 2024, to the UAE's
+  National Guideline for Lung Cancer Screening and Diagnosis, and to the National Multidisciplinary
+  Committee for Cancer Case Assessment established under Ministerial Decree No. 20 of 2025. He founded the
+  first hematology and oncology fellowship programme in the UAE's history and is Visiting Professor at
+  Harvard Medical School. In February 2025 he received the Sheikha Fatima bint Mubarak Program for
+  Excellence and Community Intelligence Award in the Distinguished Personality category.
 
-  As an educator he established the first haematology and oncology fellowship programme in the country's
-  history and chairs the fellowship committee at the National Institute for Health Specialties. He holds
-  professorships at the University of Sharjah and RAK Medical and Health Sciences University, and
-  international appointments as Visiting Professor at Harvard Medical School and Visiting Scientist at the
-  Dana-Farber Cancer Institute. He has published more than 200 peer-reviewed papers and edited the most
-  widely downloaded medical book in the MENA region, released free of charge and downloaded more than
-  650,000 times, followed by volumes on cancer care and on healthcare in the UAE with a further 635,000
-  downloads between them.
-
-  He is among the most widely followed oncologists in the world, using that reach to promote early
-  detection and to raise acceptance of cancer screening across Emirati society. In February 2025 he
-  received the Sheikha Fatima bint Mubarak Award for Excellence and Community Intelligence in the
-  Distinguished Personality category, presented by His Highness Sheikh Mohamed bin Zayed Al Nahyan.
+# Portrait for the media team. Save the file in photos/ and name it here once
+# received; photo_credit records who supplied it and the permission given.
+photo: ""
+photo_credit: ""
 
 sources:
   - "winners so far/HADP/humaid/Prof Humaid - Nomination Letter 2026.pdf"

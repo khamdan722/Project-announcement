@@ -28,6 +28,8 @@ Working list. Each item gets a status as we go through them one by one.
 | R14 | Confirm the foundation's English name — the 1281 declaration form says "Hamdan Bin Rashid Al Maktoum Foundation", we have "Hamdan Bin Rashid Foundation" | todo | — |
 | R15 | Internal review and approval pass before handover | todo | R10–R14 |
 | R16 | Source-reference audit of every claim in the write-ups — see REFERENCES.md | done | — |
+| R17 | Shorten the write-ups and remove every unsourced sentence | done | — |
+| R18 | Obtain portraits for the three individual winners — see photos/README.md | todo | press offices |
 
 ## Still to be captured
 
