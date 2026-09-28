@@ -78,12 +78,28 @@ at source.
 
 ---
 
-## Two judgement calls to review
+## All terms reviewed and approved
 
-1. **التصلب المتعدد vs التصلب اللويحي.** Both are in use. I chose التصلب المتعدد because
-   the UAE's own National MS Society and national treatment guidelines use it, and the
-   document is a UAE foundation's. If the foundation's house style is اللويحي, it is a
-   single find-and-replace.
+Every name and term in this file was reviewed with the foundation one by one and
+approved. The approved wording is recorded in `data/arabic-decisions.md`, which
+later write-ups follow without re-asking. Four corrections came out of that review:
+
+| Was | Approved |
+|---|---|
+| جمعية الإمارات لطب الأعصاب | الجمعية الإماراتية لطب الأعصاب |
+| أبوبكر عبدالرحمن **شافي** المدني | أبوبكر عبدالرحمن **شافعي** المدني — the foundation's correction; no source carried this spelling |
+| التصلب المتعدد الانتكاسي الهاجع | التصلب المتعدد متكرر الانتكاس والخمود |
+| MENACTRIMS in English | لجنة الشرق الأوسط وشمال أفريقيا لعلاج وأبحاث التصلب المتعدد — ⚠ our translation; MENACTRIMS publishes no Arabic name |
+
+The pangenome paper title also took the foundation's own wording, and the
+presentation of the Sheikha Fatima award by HH Sheikh Mohamed bin Zayed was
+restored to both the Arabic and English briefs.
+
+## Two earlier judgement calls, now settled
+
+1. **التصلب المتعدد vs التصلب اللويحي.** Settled: the foundation confirmed
+   التصلب المتعدد, matching the UAE National MS Society and the national treatment
+   guidelines.
 
 2. **The pangenome gene finding.** Dubai Health's Arabic release says TAF11L5 was found
    لدى جميع المشاركين العرب ("in all Arab participants"), while their own English release

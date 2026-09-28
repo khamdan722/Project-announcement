@@ -31,7 +31,7 @@ Working list. Each item gets a status as we go through them one by one.
 | R17 | Shorten the write-ups and remove every unsourced sentence | done | — |
 | R18 | Obtain portraits for the three individual winners — see photos/README.md | todo | press offices |
 | R19 | Arabic write-ups for all winners, with terminology checked against outside sources — see REFERENCES-AR.md | done (5 of 10) | — |
-| R20 | Confirm the two flagged Arabic choices: EMINS Arabic name, and التصلب المتعدد vs اللويحي | todo | foundation |
+| R20 | Review every Arabic name and term with the foundation, one by one | done | — |
 | R21 | Write-ups in the foundation's voice, not the winner's — applies to the remaining papers and projects too | done | — |
 | R22 | House term for non-invasive is غير جراحي (not غير باضع) | done | — |
 
