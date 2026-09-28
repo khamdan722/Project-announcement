@@ -72,7 +72,7 @@ at source.
 | التصلب المتعدد الانتكاسي الهاجع | standard rendering of relapsing-remitting MS | ⚠ not confirmed in a UAE or Gulf source |
 | الفيروس القهقري الداخلي المنشأ من النوع W | standard rendering of human endogenous retrovirus type W | ⚠ no Arabic source found; the English abbreviation pHERV-W ENV is kept beside it |
 | الخلايا الوحيدة / الخلايا البائية | standard Arabic for monocytes / B cells | ⚠ not separately sourced |
-| غير باضع | standard Arabic for non-invasive | ⚠ غير جراحي is also common |
+| غير جراحي | non-invasive. Both غير جراحي and غير باضع are in use; the foundation chose غير جراحي | settled by the foundation |
 | التحفيز العميق للدماغ، توكسين البوتولينوم، اعتلال الأعصاب، اضطرابات الحركة، الصرع، الخرف | standard clinical Arabic | ⚠ not separately sourced |
 | الانحياز المرجعي / أليلات متغايرة / إكسوم | renderings of reference bias / variant alleles / exome | ⚠ specialist terms, no Arabic source found |
 
