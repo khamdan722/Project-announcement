@@ -10,19 +10,54 @@ winner_type: healthcare_project
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — اسم المشروع الفائز
-name_ar: ""
+name_ar: "«حياة»: تحويل التبرع بالأعضاء وزراعتها من خلال الابتكار الرقمي."
 
 # الملاحظات — الفريق والجهة التابع لها
-notes_ar: ""
+notes_ar: "مبادرة وطنية على مستوى دولة الإمارات العربية المتحدة."
+
+name_en: "HAYAT: Transforming Organ Donation and Transplantation through Digital Innovation"
 
 # نبذة عن الفائز — English, 250–400 words: lay-language description of the project: what it changed, how it was built, measured results
-bio_en: ""
+bio_en: |
+  HAYAT is a UAE-wide initiative that integrates organ donation and transplantation through coordinated
+  governance, standardised clinical pathways, digital systems, and collaboration among healthcare
+  providers and authorities across the Emirates. Implementing a unified national programme across
+  organisations at different levels of digital maturity was recognised by the jury as a substantial
+  undertaking.
+
+  The programme has raised the deceased-donor rate to nearly 14 per million population and gathered more
+  than 35,000 donor pledges. It is supported by digital dashboards, workforce development, quality
+  assurance, regulatory progress and international collaboration, and extends to interventions not
+  covered by insurance, in the interest of equitable access.
+
+  The jury recorded HAYAT's significance within the UAE and the wider MENA region, alongside its
+  attention to ethical considerations and to the cybersecurity of its digital platform, and its potential
+  for further development including the use of artificial intelligence to improve operational efficiency.
+  It scored 98 out of 100 at interview stage and 94.67 in the first round, the strongest overall
+  performance in the award.
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources: []
+bio_ar: |
+  «حياة» مبادرة على مستوى دولة الإمارات العربية المتحدة تُعنى بتكامل منظومة التبرع بالأعضاء وزراعتها، عبر
+  حوكمة منسّقة ومسارات سريرية موحّدة وأنظمة رقمية وتعاون بين مقدّمي الرعاية الصحية والجهات المعنية في
+  مختلف الإمارات. وقد اعتبرت لجنة التحكيم أنّ تطبيق برنامج وطني موحّد عبر مؤسسات تتفاوت في مستوى نضجها
+  الرقمي يمثّل إنجازاً كبيراً.
 
-notes: ""
+  ورفع البرنامج معدّل التبرع من المتوفين إلى نحو 14 متبرعاً لكل مليون نسمة، وجمع أكثر من 35 ألف تعهّد
+  بالتبرع. ويستند إلى لوحات بيانات رقمية وتطوير للكوادر وضمان للجودة وتقدّم تنظيمي وتعاون دولي، ويشمل
+  تدخّلات غير مشمولة بالتأمين بما يخدم عدالة الوصول إلى الرعاية.
+
+  وسجّلت اللجنة أهمية «حياة» داخل دولة الإمارات وفي منطقة الشرق الأوسط وشمال أفريقيا، إلى جانب عنايته
+  بالاعتبارات الأخلاقية وبأمن المعلومات في منصّته الرقمية، وإمكانات تطويره مستقبلاً بما في ذلك توظيف
+  الذكاء الاصطناعي لتحسين الكفاءة التشغيلية. وقد نال 98 من 100 في مرحلة المقابلات و94.67 في المرحلة
+  الأولى، وهو أعلى أداء في الجائزة.
+
+sources:
+  - "Medical Awards Final Evaluation Report 2026 (Innovation in Healthcare), Prof. Khaula Alkaabi (Chair), 11 October 2026 — entry 1635"
+
+notes: >-
+  Entry 1635. Jury report names Dr. Amin Alameeri and Maria Gomez in the Phase 1 table; the lead institution is not stated in the report and must be confirmed before publication.

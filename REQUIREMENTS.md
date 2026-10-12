@@ -21,7 +21,11 @@ Working list. Each item gets a status as we go through them one by one.
 |---|---|---|---|
 | R8 | Fill in winners whose arbitration has finished | done (5 of 10) | — |
 | R9 | Draft the English write-ups (نبذة عن الفائز) for each winner | done (5 of 10) | — |
-| R10 | Fill in the remaining 5 winners — Best Research in Healthcare (3), Innovation in Healthcare (2) | blocked | remaining arbitration results |
+| R10 | Fill in the remaining 5 winners — Best Research in Healthcare (3), Innovation in Healthcare (2) | done | — |
+| R23 | Confirm the award mapping: the 3-winner jury report is headed "Students, Residents and Early-Career Researchers", not "Best Research in Healthcare" | todo | foundation |
+| R24 | Obtain author names, institutions and the papers for entries 1558, 1299 and 1457 — the evaluation report carries titles only | blocked | foundation |
+| R25 | Confirm the lead institution behind HAYAT (entry 1635) | todo | foundation |
+| R26 | Decide how to handle jury rankings: two committees ranked their winners 1st/2nd/3rd, but the award presents all winners as equal | todo | foundation |
 | R11 | Review the Arabic paper titles and personal names — mine are translations, not the foundation's official wording | todo | foundation review |
 | R12 | Clear the two Distinguished Personalities write-ups with Dubai Health and Burjeel — sources are internal nomination letters | todo | — |
 | R13 | Tidy the repository: 14 duplicate source files sit at the repo root, and 7 stray 1-byte files sit inside `winners so far/` | todo | confirmation before deleting |

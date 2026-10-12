@@ -10,19 +10,23 @@ winner_type: research_paper
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: pending
+status: confirmed
 
 # الاسم — العنوان العربي للبحث الفائز
-name_ar: ""
+name_ar: "تطوير فحص تسلسل بالقراءات الطويلة قائم على أخذ العيّنات التكيّفي للفحص الجيني قبل الزواج."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
 notes_ar: ""
+
+name_en: "Development of an Adaptive Sampling-Based Long-Read Sequencing Assay for Premarital Genetic Screening"
 
 # نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
 bio_en: ""
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources: []
+sources:
+  - "Medical Awards Final Evaluation Report, Students / Residents / Early-Career Researchers committee, Prof. Nawal Al Kaabi (Chair), 7 October 2026 — application 1558"
 
-notes: ""
+notes: >-
+  Entry 1558, first-ranked nominee. Jury noted concordance for 82 known-positive calls including difficult variants, relevance to a UAE health priority, and translational potential. Author names, institution and the paper itself are NOT in the evaluation report — needed before a write-up can be drafted.

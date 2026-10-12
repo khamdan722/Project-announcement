@@ -10,19 +10,23 @@ winner_type: research_paper
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: pending
+status: confirmed
 
 # الاسم — العنوان العربي للبحث الفائز
-name_ar: ""
+name_ar: "نمذجة متلازمة درافيه وتصميم دواء بالحمض النووي الريبي المرسال يعكس النمط الظاهري الجزيئي في الخلايا العصبية المشتقة من الخلايا الجذعية المحفَّزة."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
 notes_ar: ""
+
+name_en: "Dravet Syndrome Modelling and mRNA Drug Design Reverses Molecular Phenotype in iPSC Derived Neurons"
 
 # نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
 bio_en: ""
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources: []
+sources:
+  - "Medical Awards Final Evaluation Report, Students / Residents / Early-Career Researchers committee, Prof. Nawal Al Kaabi (Chair), 7 October 2026 — application 1457"
 
-notes: ""
+notes: >-
+  Entry 1457, third-ranked nominee. Jury valued the integration of genetic analysis, an engineered neuronal model, electrophysiology and exploratory multi-omics. Author names, institution and the paper itself are NOT in the evaluation report — needed before a write-up can be drafted.

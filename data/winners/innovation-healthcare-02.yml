@@ -10,19 +10,51 @@ winner_type: healthcare_project
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: pending
+status: drafted
 
 # الاسم — اسم المشروع الفائز
-name_ar: ""
+name_ar: "من الرؤية إلى الواقع: بناء مركز تميّز لعلاج الحروق في دولة الإمارات العربية المتحدة."
 
 # الملاحظات — الفريق والجهة التابع لها
-notes_ar: ""
+notes_ar: "مدينة الشيخ شخبوط الطبية."
+
+name_en: "From Vision to Reality: Building a Burn Center of Excellence in the UAE"
 
 # نبذة عن الفائز — English, 250–400 words: lay-language description of the project: what it changed, how it was built, measured results
-bio_en: ""
+bio_en: |
+  Sheikh Shakhbout Medical City's Burn Center of Excellence has built coordinated specialist burn care in
+  the United Arab Emirates, along a multidisciplinary pathway spanning emergency treatment, intensive
+  care, early surgery, advanced wound management, rehabilitation, psychosocial support, referral
+  coordination and follow-up.
+
+  The centre has grown patient numbers by approximately 40 percent since the previous award cycle, and
+  reports a mortality rate of 1.4 percent in 2025 and 1.3 percent for January to August 2026, with 95
+  percent of patients discharged home and high satisfaction with both treatment and rehabilitation care.
+  A partnership with Ma'an supports treatment for people without insurance, widening access to a service
+  that is otherwise difficult to reach.
+
+  The centre is working towards American Burn Association verification, planned for 2027, and aims to
+  become a leading regional centre for burn care. The jury judged it a high-value transformation of a
+  healthcare service, with substantial potential for continued national impact.
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources: []
+bio_ar: |
+  أنشأ مركز التميّز لعلاج الحروق في مدينة الشيخ شخبوط الطبية رعاية تخصصية منسّقة للحروق في دولة الإمارات
+  العربية المتحدة، عبر مسار متعدد التخصصات يمتد من العلاج الطارئ والعناية المركّزة والجراحة المبكرة
+  والعناية المتقدمة بالجروح، إلى إعادة التأهيل والدعم النفسي والاجتماعي وتنسيق الإحالات والمتابعة.
 
-notes: ""
+  وقد ارتفع عدد المرضى في المركز بنحو 40 بالمئة منذ الدورة السابقة للجائزة، وسجّل معدّل وفيات بلغ 1.4
+  بالمئة في عام 2025 و1.3 بالمئة في الفترة من يناير إلى أغسطس 2026، مع خروج 95 بالمئة من المرضى إلى
+  منازلهم ومستويات رضا مرتفعة عن العلاج وعن رعاية إعادة التأهيل. كما تدعم شراكة مع مؤسسة «معاً» علاج غير
+  المؤمَّن عليهم، بما يوسّع الوصول إلى خدمة يصعب بلوغها لولا ذلك.
+
+  ويعمل المركز على نيل اعتماد الجمعية الأمريكية للحروق المقرر في عام 2027، ويتطلّع إلى أن يكون مركزاً
+  إقليمياً رائداً في علاج الحروق. وقد رأت لجنة التحكيم فيه تحوّلاً عالي القيمة في خدمة صحية، يحمل إمكانات
+  كبيرة لأثر وطني متواصل.
+
+sources:
+  - "Medical Awards Final Evaluation Report 2026 (Innovation in Healthcare), Prof. Khaula Alkaabi (Chair), 11 October 2026 — entry 1345"
+
+notes: >-
+  Entry 1345. Sheikh Shakhbout Medical City. Arabic name of the institution (مدينة الشيخ شخبوط الطبية) follows its own usage; confirm with the centre.
