@@ -9,6 +9,7 @@ write-ups can be reviewed without opening Word.
 
 import argparse
 import html
+import os
 import pathlib
 
 import yaml
@@ -16,6 +17,10 @@ import yaml
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 READY = {"confirmed", "drafted", "approved"}
+FONTS = ("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700"
+         "&family=Noto+Naskh+Arabic:wght@400;700&display=swap")
+FOOT = ("<footer>يُبنى هذا العرض من ملفات الفائزين في المستودع، وهو مطابق لمحتوى وثيقة الإعلان. "
+        "كل معلومة فيه مستندة إلى وثائق الترشيح وتقارير التحكيم.</footer>")
 
 STYLE = """
 :root{
@@ -90,6 +95,17 @@ h1{
   border-radius:7px; padding:11px 15px; font-size:14.5px;
   font-family:"Noto Kufi Arabic",system-ui,sans-serif;
 }
+.switch{display:inline-flex; gap:2px; margin-top:20px; padding:3px; border-radius:999px;
+  background:var(--surface); border:1px solid var(--line)}
+.switch button{
+  font-family:"Noto Kufi Arabic",system-ui,sans-serif; font-size:13px; cursor:pointer;
+  border:0; background:none; color:var(--ink-soft); padding:6px 18px; border-radius:999px;
+}
+.switch button.on{background:var(--teal); color:#fff}
+.switch button:focus-visible{outline:2px solid var(--teal-ink); outline-offset:2px}
+[data-lang="ar"] [data-bio="en"]{display:none}
+[data-lang="en"] [data-bio="ar"]{display:none}
+@media (prefers-reduced-motion:no-preference){ .switch button{transition:background .15s,color .15s} }
 footer{margin-top:56px; padding-top:22px; border-top:1px solid var(--line); color:var(--ink-soft); font-size:13.5px}
 @media (max-width:480px){ .winner{gap:12px; padding-inline:14px} body{font-size:16px} }
 """
@@ -104,7 +120,7 @@ def paras(text):
     return "\n".join(f"<p>{esc(b)}</p>" for b in blocks)
 
 
-def build(lang):
+def build(lang, artifact=False):
     cfg = yaml.safe_load((DATA / "awards.yml").read_text(encoding="utf-8"))
     winners = {}
     for f in sorted((DATA / "winners").glob("*.yml")):
@@ -125,7 +141,7 @@ def build(lang):
             for i, w in enumerate(slots, 1):
                 total += 1
                 ready = w.get("status") in READY and w.get("name_ar")
-                bio = w.get(f"bio_{lang}") or ""
+                bio = w.get("bio_ar") or ""
                 if ready:
                     named += 1
                 if bio.strip():
@@ -138,8 +154,14 @@ def build(lang):
                     affil = w.get("notes_ar")
                     cls = "affil" if affil else "affil affil--missing"
                     body.append(f'<p class="{cls}">{esc(affil) if affil else "الجهة غير محدّدة بعد"}</p>')
-                    body.append(f'<div class="brief">{paras(bio)}</div>' if bio.strip()
-                                else '<p class="wait">النبذة قيد الإعداد — بانتظار البحث وأسماء الباحثين.</p>')
+                    for code in ("ar", "en"):
+                        text = w.get(f"bio_{code}") or ""
+                        d = "rtl" if code == "ar" else "ltr"
+                        inner = (paras(text) if text.strip() else
+                                 '<p class="wait">النبذة قيد الإعداد — بانتظار البحث وأسماء الباحثين.</p>'
+                                 if code == "ar" else
+                                 '<p class="wait">Write-up pending — awaiting the paper and author details.</p>')
+                        body.append(f'<div class="brief" data-bio="{code}" dir="{d}" lang="{code}">{inner}</div>')
                 else:
                     body.append(f'<p class="wait">{esc(cfg["placeholder_ar"])}</p>')
                 body.append("</div></div>")
@@ -150,12 +172,27 @@ def build(lang):
         '<p class="eyebrow kufi">مؤسسة حمدان بن راشد للعلوم الطبية والتربوية</p>',
         f'<h1>{esc(cfg["title_ar"])}</h1>',
         '<p class="sub">نسخة للمراجعة الداخلية — غير مخصّصة للنشر.</p>',
+        '<div class="switch" role="group" aria-label="اللغة">'
+        '<button type="button" id="lang-ar" class="on" data-set="ar">العربية</button>'
+        '<button type="button" id="lang-en" data-set="en">English</button></div>',
         '<ul class="tally">'
         f'<li>الفائزون: <b>{named}</b> من <b>{total}</b></li>'
         f'<li>النبذ المكتملة: <b>{written}</b> من <b>{total}</b></li>'
         '<li>الجوائز: <b>5</b></li></ul>',
     ]
 
+    script = (
+        "<script>(function(){var m=document.getElementById('sheet');"
+        "document.querySelectorAll('.switch button').forEach(function(b){"
+        "b.addEventListener('click',function(){m.dataset.lang=b.dataset.set;"
+        "document.querySelectorAll('.switch button').forEach(function(o){"
+        "o.classList.toggle('on',o===b)});});});})();</script>"
+    )
+    if artifact:
+        return (f"<title>{esc(cfg['title_ar'])}</title>\n"
+                f"<style>@import url('{FONTS}');{STYLE}</style>\n"
+                f'<main class="wrap" id="sheet" dir="rtl" lang="ar" data-lang="ar">\n'
+                f"{''.join(head)}\n{''.join(body)}\n{FOOT}\n</main>\n{script}")
     return f"""<!doctype html>
 <html lang="ar" dir="rtl">
 <head>
@@ -165,17 +202,15 @@ def build(lang):
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@400;700&family=Noto+Naskh+Arabic:wght@400;700&display=swap">
-<style>{STYLE}</style>
+<style>@import url('{FONTS}');{STYLE}</style>
 </head>
 <body>
-<main class="wrap">
+<main class="wrap" id="sheet" dir="rtl" lang="ar" data-lang="ar">
 {''.join(head)}
 {''.join(body)}
-<footer>
-يُبنى هذا العرض من ملفات الفائزين في المستودع، وهو مطابق لمحتوى وثيقة الإعلان.
-كل معلومة فيه مستندة إلى وثائق الترشيح وتقارير التحكيم.
-</footer>
+{FOOT}
 </main>
+{script}
 </body>
 </html>"""
 
@@ -184,11 +219,13 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("-l", "--lang", choices=("ar", "en"), default="ar")
     ap.add_argument("-o", "--output", type=pathlib.Path)
+    ap.add_argument("--artifact", action="store_true",
+                    help="emit page content only, for publishing as an Artifact")
     args = ap.parse_args()
     out = args.output or ROOT / "output" / f"winners-2026-{args.lang}.html"
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(build(args.lang), encoding="utf-8")
-    print(f"written to {out.relative_to(ROOT)}  ({out.stat().st_size:,} bytes)")
+    out.write_text(build(args.lang, args.artifact), encoding="utf-8")
+    print(f"written to {os.path.relpath(out, ROOT)}  ({out.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
