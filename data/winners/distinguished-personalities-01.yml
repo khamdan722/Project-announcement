@@ -12,6 +12,11 @@ name_ar: "الدكتور أبوبكر عبدالرحمن شافعي المدني
 # الملاحظات — المنصب والجهة
 notes_ar: "استشاري أمراض المخ والأعصاب ورئيس قسم طب الأعصاب بمستشفى راشد، وأستاذ طب الأعصاب بجامعة محمد بن راشد للطب والعلوم الصحية."
 
+# English name and affiliation, used in the English view
+name_en: "Dr. Abubaker Abdul Rahman Shaffi Al Madani"
+notes_en: >-
+  Consultant Neurologist and Head of the Department of Neurology, Rashid Hospital; Professor of Neurology, Mohammed Bin Rashid University of Medicine and Health Sciences.
+
 # نبذة عن الفائز
 bio_en: |
   Dr. Abubaker Abdul Rahman Shaffi Al Madani is Consultant Neurologist and Head of the Department of

@@ -13,6 +13,11 @@ name_ar: "مسودة مرجع البانجينوم العربي المستند �
 # الملاحظات — الفريق البحثي والجهة التابع لها
 notes_ar: "فريق بحثي من مركز علم الجينوم التطبيقي والانتقالي – جامعة محمد بن راشد للطب والعلوم الصحية، دبي الصحية."
 
+# English name and affiliation, used in the English view
+name_en: "A draft UAE-based Arab pangenome reference"
+notes_en: >-
+  Research team from the Center for Applied and Translational Genomics — Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai Health.
+
 # نبذة عن الفائز
 bio_en: |
   Global DNA references have historically underrepresented Arab populations. This study built the first

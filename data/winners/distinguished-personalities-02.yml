@@ -12,6 +12,11 @@ name_ar: "الأستاذ الدكتور حميد عبيد بن حرمل الشا
 # الملاحظات — المنصب والجهة
 notes_ar: "الرئيس التنفيذي لمعهد برجيل للأورام، ورئيس جمعية الإمارات للأورام."
 
+# English name and affiliation, used in the English view
+name_en: "Prof. Humaid Obaid bin Harmal Al-Shamsi"
+notes_en: >-
+  Chief Executive Officer, Burjeel Cancer Institute; President, Emirates Oncology Society.
+
 # نبذة عن الفائز
 bio_en: |
   Professor Humaid Obaid Al-Shamsi is CEO of Burjeel Cancer Institute and President of the Emirates

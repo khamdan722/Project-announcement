@@ -13,6 +13,11 @@ name_ar: "بروتين pHERV-W ENV في الحويصلات خارج الخلوي
 # الملاحظات — الفريق البحثي والجهة التابع لها
 notes_ar: "فريق بحثي من الجامعة الأمريكية في بيروت – مركز نعمة وتريز طعمة للتصلب المتعدد (لبنان)."
 
+# English name and affiliation, used in the English view
+name_en: "Exosomal pHERV-W ENV as a dynamic biomarker for relapse prediction and prognosis in multiple sclerosis"
+notes_en: >-
+  Research team from the American University of Beirut — Nehme and Therese Tohme Multiple Sclerosis Center (Lebanon).
+
 # نبذة عن الفائز
 bio_en: |
   The envelope protein of human endogenous retrovirus type W, pHERV-W ENV, has been implicated in the

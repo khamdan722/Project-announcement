@@ -150,10 +150,19 @@ def build(lang, artifact=False):
                 body.append(f'<div class="num">{i}</div>')
                 body.append('<div class="winner__body">')
                 if ready:
-                    body.append(f'<h4 class="name">{esc(w["name_ar"])}</h4>')
-                    affil = w.get("notes_ar")
-                    cls = "affil" if affil else "affil affil--missing"
-                    body.append(f'<p class="{cls}">{esc(affil) if affil else "الجهة غير محدّدة بعد"}</p>')
+                    # name and affiliation swap with the brief, falling back to
+                    # the Arabic where no English form has been recorded
+                    for code, missing in (("ar", "الجهة غير محدّدة بعد"),
+                                          ("en", "Affiliation not yet confirmed")):
+                        d = "rtl" if code == "ar" else "ltr"
+                        name = w.get(f"name_{code}") or w["name_ar"]
+                        name_dir = d if w.get(f"name_{code}") else "rtl"
+                        affil = w.get(f"notes_{code}") or (w.get("notes_ar") if code == "ar" else "")
+                        affil_dir = d if w.get(f"notes_{code}") else "rtl"
+                        cls = "affil" if affil else "affil affil--missing"
+                        body.append(f'<h4 class="name" data-bio="{code}" dir="{name_dir}">{esc(name)}</h4>')
+                        body.append(f'<p class="{cls}" data-bio="{code}" dir="{affil_dir}">'
+                                    f'{esc(affil) if affil else missing}</p>')
                     for code in ("ar", "en"):
                         text = w.get(f"bio_{code}") or ""
                         d = "rtl" if code == "ar" else "ltr"

@@ -12,6 +12,11 @@ name_ar: "الأستاذ الدكتور خالد فخرو"
 # الملاحظات — المنصب والجهة
 notes_ar: "الرئيس التنفيذي للأبحاث ورئيس برنامج الطب الدقيق في سدرة للطب، وأستاذ علم الجينوم والطب الدقيق بجامعة حمد بن خليفة (قطر)."
 
+# English name and affiliation, used in the English view
+name_en: "Prof. Khalid A. Fakhro"
+notes_en: >-
+  Chief Research Officer and Chair of the Precision Medicine Program, Sidra Medicine; Professor of Genomics and Precision Medicine, Hamad Bin Khalifa University (Qatar).
+
 # نبذة عن الفائز
 bio_en: |
   Dr. Khalid A. Fakhro graduated top of his country in 2001 and chose genetics, a discipline then
