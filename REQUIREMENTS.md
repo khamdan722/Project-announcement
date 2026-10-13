@@ -22,9 +22,9 @@ Working list. Each item gets a status as we go through them one by one.
 | R8 | Fill in winners whose arbitration has finished | done (5 of 10) | — |
 | R9 | Draft the English write-ups (نبذة عن الفائز) for each winner | done (5 of 10) | — |
 | R10 | Fill in the remaining 5 winners — Best Research in Healthcare (3), Innovation in Healthcare (2) | done | — |
-| R23 | Confirm the award mapping: the 3-winner jury report is headed "Students, Residents and Early-Career Researchers", not "Best Research in Healthcare" | todo | foundation |
-| R24 | Obtain author names, institutions and the papers for entries 1558, 1299 and 1457 — the evaluation report carries titles only | blocked | foundation |
-| R25 | Confirm the lead institution behind HAYAT (entry 1635) | todo | foundation |
+| R23 | Confirm the award mapping for the three papers | done — the submissions are tagged BRH / Best Research in Healthcare | — |
+| R24 | Obtain author names, institutions and the papers for entries 1558, 1299 and 1457 | done | — |
+| R25 | Confirm the lead institution behind HAYAT (entry 1635) | done — Ministry of Health and Prevention | — |
 | R26 | Decide how to handle jury rankings: two committees ranked their winners 1st/2nd/3rd, but the award presents all winners as equal | todo | foundation |
 | R11 | Review the Arabic paper titles and personal names — mine are translations, not the foundation's official wording | todo | foundation review |
 | R12 | Clear the two Distinguished Personalities write-ups with Dubai Health and Burjeel — sources are internal nomination letters | todo | — |
@@ -38,6 +38,8 @@ Working list. Each item gets a status as we go through them one by one.
 | R20 | Review every Arabic name and term with the foundation, one by one | done | — |
 | R21 | Write-ups in the foundation's voice, not the winner's — applies to the remaining papers and projects too | done | — |
 | R22 | House term for non-invasive is غير جراحي (not غير باضع) | done | — |
+
+| R27 | The judging PDFs committed to the repo carry applicants' mobile numbers and home addresses — decide whether to keep them in version control | todo | foundation |
 
 ## Still to be captured
 

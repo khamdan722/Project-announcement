@@ -10,24 +10,61 @@ winner_type: research_paper
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: confirmed
+status: drafted
 
 # الاسم — العنوان العربي للبحث الفائز
 name_ar: "تطوير فحص تسلسل بالقراءات الطويلة قائم على أخذ العيّنات التكيّفي للفحص الجيني قبل الزواج."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
-notes_ar: ""
+notes_ar: >-
+  خلود البلوشي – جامعة محمد بن راشد للطب والعلوم الصحية، وأخصائية مختبر وراثة بمدينة الشيخ خليفة الطبية.
 
 name_en: "Development of an Adaptive Sampling-Based Long-Read Sequencing Assay for Premarital Genetic Screening"
-notes_en: ""
+notes_en: >-
+  Khulood Alblooshi — Mohammed Bin Rashid University of Medicine and Health Sciences; Genetics Medical Laboratory Technologist, Sheikh Khalifa Medical City.
 
 # نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
-bio_en: ""
+bio_en: |
+  Standard genetic tests used in premarital screening read DNA in very short fragments. That works for most
+  of the genome, but it fails consistently in regions where genes look almost identical to one another —
+  among them the genes behind thalassemia, spinal muscular atrophy and congenital adrenal hyperplasia. Those
+  are precisely the conditions most relevant to high-risk populations, so some carriers are missed entirely.
+
+  This study developed a new form of testing using Oxford Nanopore long-read sequencing, which reads much
+  longer stretches of DNA at once. It was combined with adaptive sampling, by which the sequencing machine
+  decides in real time which fragments to read and which to discard, allowing it to focus on the 836 genes
+  relevant to inherited disease without any physical enrichment step.
+
+  The assay was built, optimised and tested on 75 individuals with previously confirmed genetic variants
+  across several disease categories. It detected every variant type — small mutations, structural
+  rearrangements and large deletions — with complete accuracy, and resolved complex gene regions that
+  routinely defeat standard tests, in a single workflow that removes the need for the separate follow-up
+  tests clinical practice currently requires.
+
+  The result is a faster and more comprehensive screening tool that can be scaled to a population, and that
+  could reduce the number of at-risk couples missed by premarital screening programmes.
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources:
-  - "Medical Awards Final Evaluation Report, Students / Residents / Early-Career Researchers committee, Prof. Nawal Al Kaabi (Chair), 7 October 2026 — application 1558"
+bio_ar: |
+  تقرأ الفحوص الجينية المعتمدة في الفحص قبل الزواج الحمض النووي في أجزاء قصيرة جداً. وينجح ذلك في معظم
+  الجينوم، غير أنّه يخفق على نحو متكرر في المناطق التي تتشابه فيها الجينات تشابهاً شديداً، ومنها الجينات
+  المسؤولة عن الثلاسيميا وضمور العضلات الشوكي وفرط التنسّج الكظري الخلقي. وهذه تحديداً أكثر الحالات صلة
+  بالفئات عالية الخطورة، ما يعني إغفال بعض الحاملين تماماً.
 
-notes: >-
-  Entry 1558, first-ranked nominee. Jury noted concordance for 82 known-positive calls including difficult variants, relevance to a UAE health priority, and translational potential. Author names, institution and the paper itself are NOT in the evaluation report — needed before a write-up can be drafted.
+  طوّرت هذه الدراسة نمطاً جديداً من الفحص باستخدام تقنية التسلسل بالقراءات الطويلة من «أكسفورد نانوبور»،
+  التي تقرأ مقاطع أطول بكثير من الحمض النووي دفعة واحدة، مقترنةً بأسلوب أخذ العيّنات التكيّفي الذي يقرّر
+  فيه جهاز التسلسل آنياً أيّ المقاطع يقرأ وأيّها يستبعد، بما يتيح التركيز على 836 جيناً ذات صلة بالأمراض
+  الوراثية دون أي خطوة إغناء كيميائية.
+
+  وقد بُني الفحص وجرى تحسينه واختباره على 75 شخصاً لديهم متغيّرات جينية مؤكّدة سابقاً تشمل فئات مرضية
+  متعددة، فكشف جميع أنواع المتغيّرات — الطفرات الصغيرة وإعادات الترتيب البنيوية والحذوف الكبيرة — بدقة
+  كاملة، وحلّ مناطق جينية معقّدة تعجز عنها الفحوص المعتادة، ضمن مسار عمل واحد يُغني عن الفحوص التكميلية
+  المنفصلة التي تستلزمها الممارسة السريرية اليوم.
+
+  والنتيجة أداة فحص أسرع وأشمل قابلة للتوسّع على مستوى السكان، وقادرة على تقليص عدد الأزواج المعرّضين
+  للخطر الذين تغفلهم برامج الفحص قبل الزواج.
+
+sources:
+  - "1558-BRH-DEVELOPMENT OF AN ADAPTIVE SAMPLING-BASED LONG-READ SEQUENCING ASSAY FOR PREMARI-vip_judging.pdf"
+  - "Medical Awards Final Evaluation Report 2026"

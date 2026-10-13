@@ -10,24 +10,61 @@ winner_type: research_paper
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: confirmed
+status: drafted
 
 # الاسم — العنوان العربي للبحث الفائز
 name_ar: "نمذجة متلازمة درافيه وتصميم دواء بالحمض النووي الريبي المرسال يعكس النمط الظاهري الجزيئي في الخلايا العصبية المشتقة من الخلايا الجذعية المحفَّزة."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
-notes_ar: ""
+notes_ar: >-
+  نور كساجي – طالبة دكتوراه في العلوم الطبية الحيوية، جامعة محمد بن راشد للطب والعلوم الصحية.
 
 name_en: "Dravet Syndrome Modelling and mRNA Drug Design Reverses Molecular Phenotype in iPSC Derived Neurons"
-notes_en: ""
+notes_en: >-
+  Noor Kosaji — PhD student in Biomedical Sciences, Mohammed Bin Rashid University of Medicine and Health Sciences.
 
 # نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
-bio_en: ""
+bio_en: |
+  Dravet syndrome is a severe form of epilepsy that begins in infancy, caused by changes in a gene called
+  SCN1A. Children with the condition experience frequent, hard-to-control seizures and developmental delays,
+  and face a high risk of early death. Treatment today is limited and largely confined to easing symptoms.
+
+  This study analysed the DNA of thousands of children with neurodevelopmental disorders to find the changes
+  that might explain their conditions, focusing on SCN1A. To understand how those changes affect brain
+  cells, the team used advanced stem cell techniques to create human neurons carrying the SCN1A mutation in
+  the laboratory.
+
+  Those neurons showed the abnormal electrical activity and molecular changes seen in patients, and the team
+  examined how the mutation affected genes, proteins and cell metabolism.
+
+  To explore a treatment, they tested a new strategy: silencing the faulty gene with antisense
+  oligonucleotides, and reintroducing a healthy copy of it through a custom-built vector. The approach
+  showed early promise in correcting the cellular problems the mutation causes.
+
+  The work is still in progress, but it brings personalised treatment aimed at the cause of Dravet syndrome,
+  rather than at its symptoms, closer for the families it affects.
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources:
-  - "Medical Awards Final Evaluation Report, Students / Residents / Early-Career Researchers committee, Prof. Nawal Al Kaabi (Chair), 7 October 2026 — application 1457"
+bio_ar: |
+  متلازمة درافيه شكل شديد من الصرع يبدأ في مرحلة الرضاعة، وينشأ عن تغيّرات في جين يُعرف بـ SCN1A. ويعاني
+  الأطفال المصابون بها نوبات متكررة يصعب ضبطها وتأخّراً في النمو، ويواجهون خطراً مرتفعاً للوفاة المبكرة.
+  أمّا العلاج المتاح اليوم فمحدود ويقتصر غالباً على تخفيف الأعراض.
 
-notes: >-
-  Entry 1457, third-ranked nominee. Jury valued the integration of genetic analysis, an engineered neuronal model, electrophysiology and exploratory multi-omics. Author names, institution and the paper itself are NOT in the evaluation report — needed before a write-up can be drafted.
+  حلّلت هذه الدراسة الحمض النووي لآلاف الأطفال المصابين باضطرابات النمو العصبي بحثاً عن التغيّرات التي قد
+  تفسّر حالاتهم، مع التركيز على جين SCN1A. ولفهم أثر هذه التغيّرات في خلايا الدماغ، استعان الفريق بتقنيات
+  متقدمة للخلايا الجذعية لإنشاء خلايا عصبية بشرية تحمل الطفرة في المختبر.
+
+  وأظهرت هذه الخلايا النشاط الكهربائي غير الطبيعي والتغيّرات الجزيئية التي تُرى لدى المرضى، ودرس الفريق
+  كيف أثّرت الطفرة في الجينات والبروتينات وأيض الخلية.
+
+  ولاستكشاف علاج محتمل، اختبر الفريق استراتيجية جديدة: إسكات الجين المعطوب بقليلات النوكليوتيد المضادة
+  للمعنى، وإعادة إدخال نسخة سليمة منه عبر ناقل مصمّم خصيصاً. وأظهر هذا النهج وعداً مبكراً في تصحيح الخلل
+  الخلوي الناجم عن الطفرة.
+
+  ولا يزال العمل جارياً، غير أنّه يقرّب العلاج الشخصي الموجّه إلى سبب متلازمة درافيه، لا إلى أعراضها، من
+  العائلات المتأثرة بها.
+
+sources:
+  - "1457-BRH-Dravet Syndrome Modelling and mRNA Drug Design Reverses Molecular Phenotype in i-vip_judging.pdf"
+  - "Medical Awards Final Evaluation Report 2026"

@@ -10,24 +10,58 @@ winner_type: research_paper
 # confirmed — name is final, write-up still to be drafted
 # drafted   — write-up drafted from source documents, awaiting internal review
 # approved  — cleared for handover to the media team
-status: confirmed
+status: drafted
 
 # الاسم — العنوان العربي للبحث الفائز
 name_ar: "تعلّم عميق قابل للتفسير سريرياً للتنبؤ بإمراضية المتغيّرات المغلوطة في سرطان الثدي."
 
 # الملاحظات — الفريق البحثي والجهة التابع لها
-notes_ar: ""
+notes_ar: >-
+  الدكتورة رهف أحمد – زميلة ما بعد الدكتوراه، جامعة الإمارات العربية المتحدة.
 
 name_en: "Clinically Interpretable Deep Learning for Breast Cancer Missense Variant Pathogenicity Prediction"
-notes_en: ""
+notes_en: >-
+  Dr. Rahaf Ahmad — Postdoctoral Fellow, United Arab Emirates University.
 
 # نبذة عن الفائز — English, 250–400 words: lay-language summary of the paper, written the way the researchers would describe it ("In our study, we aimed to…")
-bio_en: ""
+bio_en: |
+  Genes sometimes carry tiny changes called missense variants, each swapping a single building block in a
+  protein. Some are entirely harmless; others break how a protein works and can raise the risk of breast
+  cancer. Telling the two apart usually requires slow and costly laboratory experiments, so many variants
+  are never classified and sit in a grey zone that gives doctors and patients no clear answer.
+
+  This study asked whether artificial intelligence could help. Tens of thousands of variants already known
+  to be harmful or harmless were drawn from trusted genetic databases and used to train seven types of deep
+  learning model. Two performed best, sorting variants correctly more than 99 percent of the time.
+
+  Just as important, the models were not treated as a black box. Tools that show why each decision was made
+  revealed the models relying on clues geneticists already trust — among them how strongly a part of a gene
+  has stayed the same across species over time.
+
+  That matters for patient care: a tool that is both accurate and explainable is far more likely to be
+  trusted in a clinic. The work offers a fast, low-cost way to make sense of uncertain breast cancer
+  variants, and the same approach could later be applied to other genetic diseases.
 
 # Documents this write-up was built from (CV, nomination form, paper, abstract).
 # Every factual claim in bio_en must be traceable to one of these.
-sources:
-  - "Medical Awards Final Evaluation Report, Students / Residents / Early-Career Researchers committee, Prof. Nawal Al Kaabi (Chair), 7 October 2026 — application 1299"
+bio_ar: |
+  تحمل الجينات أحياناً تغيّرات دقيقة تُعرف بالمتغيّرات المغلوطة، يستبدل كلٌّ منها لبنة واحدة في البروتين.
+  بعضها غير ضارّ البتّة، وبعضها يُعطّل عمل البروتين وقد يرفع خطر الإصابة بسرطان الثدي. والتمييز بينهما
+  يستلزم عادةً تجارب مخبرية بطيئة ومكلفة، ولذلك يبقى كثير من المتغيّرات دون تصنيف، في منطقة رمادية لا تمنح
+  الأطباء والمرضى جواباً واضحاً.
 
-notes: >-
-  Entry 1299, second-ranked nominee. Jury valued the precision-medicine question, breadth of internal modelling and interpretability work. Author names, institution and the paper itself are NOT in the evaluation report — needed before a write-up can be drafted.
+  وقد تساءلت هذه الدراسة عمّا إذا كان الذكاء الاصطناعي قادراً على المساعدة. فجُمعت عشرات الآلاف من
+  المتغيّرات المعروفة سلفاً بكونها ضارّة أو غير ضارّة من قواعد بيانات جينية موثوقة، واستُخدمت في تدريب
+  سبعة أنماط من نماذج التعلّم العميق. وتفوّق نموذجان منها، إذ صنّفا المتغيّرات تصنيفاً صحيحاً بنسبة
+  تتجاوز 99 بالمئة.
+
+  ولم تُعامَل النماذج بوصفها صندوقاً مغلقاً؛ فقد أظهرت أدوات تفسير القرارات أنّها تعتمد على مؤشرات يثق بها
+  علماء الوراثة أصلاً، منها مدى ثبات جزء من الجين عبر الأنواع الحيّة على مرّ الزمن.
+
+  ولهذا أثر مباشر في رعاية المرضى: فالأداة الدقيقة والقابلة للتفسير معاً أجدر بالثقة في العيادة. ويقدّم
+  هذا العمل سبيلاً سريعاً ومنخفض الكلفة لفهم متغيّرات سرطان الثدي غير المحسومة، ويمكن تطبيق المنهج نفسه
+  لاحقاً على أمراض وراثية أخرى.
+
+sources:
+  - "1299-BRH-Rahaf AhmadPathogenicity Prediction Of Missense VariantsClinically Interpretable-vip_judging.pdf"
+  - "Medical Awards Final Evaluation Report 2026"
