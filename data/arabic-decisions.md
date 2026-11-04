@@ -25,3 +25,5 @@ Recorded as each term is approved, so later write-ups follow the same choices.
 | 19 | bone marrow transplant | وحدة متكاملة لزراعة نخاع العظم |
 | 20 | Sheikha Fatima award | جائزة برنامج سمو الشيخة فاطمة بنت مبارك للتميز والذكاء المجتمعي، presented by HH Sheikh Mohamed bin Zayed (restored in both languages) |
 | 24 | non-invasive | غير جراحي |
+
+| 21 | personality names | full name as printed in each winner's passport, in both languages (passport scans were shown for verification only; no passport, ID or date-of-birth data is stored here) |
