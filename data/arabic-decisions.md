@@ -7,7 +7,7 @@ Recorded as each term is approved, so later write-ups follow the same choices.
 | 1 | multiple sclerosis | التصلب المتعدد |
 | 2 | Emirates Neurology Society (EMINS) | الجمعية الإماراتية لطب الأعصاب |
 | 3 | American University of Beirut | الجامعة الأمريكية في بيروت |
-| 4 | pangenome paper title | مسودة مرجع البانجينوم العربي المستند إلى بيانات من دولة الإمارات العربية المتحدة |
+| 4 | pangenome paper title | صياغة مرجع الجينوم العربي الشامل المستند إلى بيانات من دولة الإمارات العربية المتحدة — revised by the foundation on the review page |
 | 5 | MS paper title | استخدام بروتين pHERV-W ENV في الحويصلات الخارج خلوية كمؤشر حيوي للتنبؤ بالانتكاسات وتقييم مآل مرض التصلب المتعدد — revised by the foundation on the review page |
 | 6 | Dr. Al Madani's name | الدكتور أبوبكر عبدالرحمن شافعي المدني (شافعي confirmed by the foundation, not شافي) |
 | 7 | Prof. Al-Shamsi's name | الأستاذ الدكتور حميد عبيد بن حرمل الشامسي |
