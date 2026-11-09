@@ -8,13 +8,13 @@ Recorded as each term is approved, so later write-ups follow the same choices.
 | 2 | Emirates Neurology Society (EMINS) | الجمعية الإماراتية لطب الأعصاب |
 | 3 | American University of Beirut | الجامعة الأمريكية في بيروت |
 | 4 | pangenome paper title | مسودة مرجع البانجينوم العربي المستند إلى بيانات من دولة الإمارات العربية المتحدة |
-| 5 | MS paper title | بروتين pHERV-W ENV في الحويصلات خارج الخلوية كمؤشر حيوي ديناميكي للتنبؤ بالانتكاسات وتقييم مآل مرض التصلب المتعدد |
+| 5 | MS paper title | استخدام بروتين pHERV-W ENV في الحويصلات الخارج خلوية كمؤشر حيوي للتنبؤ بالانتكاسات وتقييم مآل مرض التصلب المتعدد — revised by the foundation on the review page |
 | 6 | Dr. Al Madani's name | الدكتور أبوبكر عبدالرحمن شافعي المدني (شافعي confirmed by the foundation, not شافي) |
 | 7 | Prof. Al-Shamsi's name | الأستاذ الدكتور حميد عبيد بن حرمل الشامسي |
 | 8 | Dr. Fakhro's title | الأستاذ الدكتور خالد فخرو |
 | 9 | relapsing-remitting MS | التصلب المتعدد متكرر الانتكاس والخمود |
 | 10 | Tohme MS Centre | مركز نعمة وتريز طعمة للتصلب المتعدد |
-| 11 | exosomes | الحويصلات خارج الخلوية (الإكسوسومات) |
+| 11 | exosomes | الحويصلات الخارج خلوية (الإكسوسومات) — revised by the foundation on the review page, superseding الحويصلات خارج الخلوية |
 | 12 | biomarker | مؤشر حيوي |
 | 13 | HERV-W | الفيروس القهقري الداخلي المنشأ من النوع W |
 | 14 | monocytes / B cells | الخلايا الوحيدة والخلايا البائية |
