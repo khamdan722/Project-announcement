@@ -103,6 +103,13 @@ h1{
 }
 .switch button.on{background:var(--teal); color:#fff}
 .switch button:focus-visible{outline:2px solid var(--teal-ink); outline-offset:2px}
+.lang + .lang{margin-top:20px; padding-top:18px; border-top:1px solid var(--line)}
+[data-lang="both"] .lang::before{
+  content:attr(data-label); display:inline-block; margin-bottom:9px;
+  font-family:"Noto Kufi Arabic",system-ui,sans-serif; font-size:11px;
+  letter-spacing:.09em; color:var(--ink-soft);
+  border:1px solid var(--line); border-radius:999px; padding:2px 10px;
+}
 [data-lang="ar"] [data-bio="en"]{display:none}
 [data-lang="en"] [data-bio="ar"]{display:none}
 @media (prefers-reduced-motion:no-preference){ .switch button{transition:background .15s,color .15s} }
@@ -150,27 +157,31 @@ def build(lang, artifact=False):
                 body.append(f'<div class="num">{i}</div>')
                 body.append('<div class="winner__body">')
                 if ready:
-                    # name and affiliation swap with the brief, falling back to
-                    # the Arabic where no English form has been recorded
-                    for code, missing in (("ar", "الجهة غير محدّدة بعد"),
-                                          ("en", "Affiliation not yet confirmed")):
+                    # each language is one block — name, affiliation and brief
+                    # together — so that showing both stacks cleanly rather than
+                    # interleaving. Falls back to the Arabic where no English
+                    # form has been recorded.
+                    for code, label, missing, pending in (
+                        ("ar", "العربية", "الجهة غير محدّدة بعد",
+                         "النبذة قيد الإعداد — بانتظار البحث وأسماء الباحثين."),
+                        ("en", "English", "Affiliation not yet confirmed",
+                         "Write-up pending — awaiting the paper and author details."),
+                    ):
                         d = "rtl" if code == "ar" else "ltr"
                         name = w.get(f"name_{code}") or w["name_ar"]
                         name_dir = d if w.get(f"name_{code}") else "rtl"
                         affil = w.get(f"notes_{code}") or (w.get("notes_ar") if code == "ar" else "")
                         affil_dir = d if w.get(f"notes_{code}") else "rtl"
                         cls = "affil" if affil else "affil affil--missing"
-                        body.append(f'<h4 class="name" data-bio="{code}" dir="{name_dir}">{esc(name)}</h4>')
-                        body.append(f'<p class="{cls}" data-bio="{code}" dir="{affil_dir}">'
-                                    f'{esc(affil) if affil else missing}</p>')
-                    for code in ("ar", "en"):
                         text = w.get(f"bio_{code}") or ""
-                        d = "rtl" if code == "ar" else "ltr"
-                        inner = (paras(text) if text.strip() else
-                                 '<p class="wait">النبذة قيد الإعداد — بانتظار البحث وأسماء الباحثين.</p>'
-                                 if code == "ar" else
-                                 '<p class="wait">Write-up pending — awaiting the paper and author details.</p>')
-                        body.append(f'<div class="brief" data-bio="{code}" dir="{d}" lang="{code}">{inner}</div>')
+                        brief = paras(text) if text.strip() else f'<p class="wait">{pending}</p>'
+                        body.append(f'<div class="lang" data-bio="{code}" data-label="{label}" '
+                                    f'dir="{d}" lang="{code}">')
+                        body.append(f'<h4 class="name" dir="{name_dir}">{esc(name)}</h4>')
+                        body.append(f'<p class="{cls}" dir="{affil_dir}">'
+                                    f'{esc(affil) if affil else missing}</p>')
+                        body.append(f'<div class="brief">{brief}</div>')
+                        body.append("</div>")
                 else:
                     body.append(f'<p class="wait">{esc(cfg["placeholder_ar"])}</p>')
                 body.append("</div></div>")
@@ -183,7 +194,8 @@ def build(lang, artifact=False):
         '<p class="sub">نسخة للمراجعة الداخلية — غير مخصّصة للنشر.</p>',
         '<div class="switch" role="group" aria-label="اللغة">'
         '<button type="button" id="lang-ar" class="on" data-set="ar">العربية</button>'
-        '<button type="button" id="lang-en" data-set="en">English</button></div>',
+        '<button type="button" id="lang-en" data-set="en">English</button>'
+        '<button type="button" id="lang-both" data-set="both">معاً · Both</button></div>',
         '<ul class="tally">'
         f'<li>الفائزون: <b>{named}</b> من <b>{total}</b></li>'
         f'<li>النبذ المكتملة: <b>{written}</b> من <b>{total}</b></li>'
