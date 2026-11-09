@@ -46,7 +46,7 @@ at source.
 | هيئة الصحة بدبي | dha.gov.ae Arabic | strong |
 | برنامج «إجادة» | UAE press on the DHA MS insurance programme | good |
 | الإرشادات العلاجية للتصلب المتعدد في دولة الإمارات | Emarat Al Youm / Al Watan on the 2025 launch; National MS Society UAE | strong |
-| جمعية الإمارات لطب الأعصاب (EMINS) | emins.ae carries no Arabic name; the society also appears in English as *Emirates Neurosciences Society* | ⚠ **unverified — decide this one.** Either confirm the society's own Arabic name, or print EMINS in English |
+| الجمعية الإماراتية لطب الأعصاب (EMINS) | emins.ae carries no Arabic name; the society also appears in English as *Emirates Neurosciences Society*. Wording settled by the foundation in the term review | foundation's choice, not an institutional source |
 | معهد برجيل للأورام | Al Khaleej and The Arab Hospital Magazine; Burjeel's Arabic doctor pages | strong |
 | جمعية الإمارات للأورام | Al Ittihad profile naming him رئيس جمعية الإمارات للأورام. Note: distinct from جمعية الإمارات للسرطان, a different body | strong |
 | الجمعية الأوروبية لطب الأورام (ESMO) | standard Arabic rendering | ⚠ ESMO has no official Arabic name; English abbreviation kept alongside |
@@ -55,7 +55,23 @@ at source.
 | صاحب السمو الشيخ محمد بن زايد آل نهيان، رئيس الدولة | Abu Dhabi Media Office; Al Ittihad | strong |
 | القرار الوزاري رقم (20) لعام 2025 | wording follows the English nomination letter | ⚠ official Arabic decree title not located |
 | الجمعية الألمانية للسكتة الدماغية | translation of German Stroke Society | ⚠ no Arabic name exists; consider keeping it in English |
-| MENACTRIMS | organisation uses its English acronym only | kept in English by design |
+| لجنة الشرق الأوسط وشمال أفريقيا لعلاج وأبحاث التصلب المتعدد (MENACTRIMS) | the organisation publishes no Arabic name; rendered into Arabic at the foundation's instruction in the term review | ⚠ our translation, not its own name |
+
+### Added October 2026 with the last five winners — NOT yet verified
+
+These four came in with the Best Research and Innovation winners, after the
+terminology review above was done. Each is the ordinary, widely used Arabic name
+of the body, written from its English name in the submission; none has been
+checked against the institution's own Arabic material the way the names above
+were. They should be confirmed before publication.
+
+| Arabic used | Where it came from | Confidence |
+|---|---|---|
+| وزارة الصحة ووقاية المجتمع | the submission gives "Ministry of Health and Prevention" in English only | ⚠ unverified |
+| مدينة الشيخ شخبوط الطبية | the submission gives "Sheikh Shakhbout Medical City" in English only | ⚠ unverified |
+| مدينة الشيخ خليفة الطبية | the submission gives "SKMC" / Sheikh Khalifa Medical City in English only | ⚠ unverified |
+| جامعة الإمارات العربية المتحدة | the submission gives "United Arab Emirates University" in English only | ⚠ unverified |
+| البرنامج الوطني للتبرع بالأعضاء والأنسجة وزراعتها «حياة» | rendered from the submission's "HAYAT, the UAE National Program for Organ and Tissue Donation and Transplantation" | ⚠ unverified; the programme's own Arabic name should be used |
 
 ## Scientific and medical terms
 
